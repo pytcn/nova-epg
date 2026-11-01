@@ -9,7 +9,7 @@ Rules
 - sky.com, dazn.com and www.magenta.tv are included completely: their channels without xmltv_id are linked to
   the database by name, otherwise they get a readable id like "DAZN2.de"
 - preferred sources for DE/AT/CH: German-language EPG providers; elsewhere a provider from the channel's country
-- sites without any programme in a test run are only used when nothing else exists
+- sites without any programme in a test run are avoided; channels that only exist there are left out
 """
 import csv, glob, os, re, sys, unicodedata
 from collections import Counter, defaultdict
@@ -23,7 +23,7 @@ EXCLUDED = {"RU", "CN", "JP"} | regions["AFR"] | (regions["BALKAN"] - {"TR"})
 DACH = {"DE", "AT", "CH"}
 PREF_DACH = ["web.magentatv.de", "www.magenta.tv", "tv.blue.ch", "tvheute.at", "sky.com", "dazn.com", "neo.io", "pluto.tv", "i.mjh.nz"]
 EXTRA_SITES = {"sky.com", "dazn.com", "www.magenta.tv"}           # included completely, also without xmltv_id
-NO_DATA = {"teleboy.ch", "digiturk.com.tr", "m.tv.sms.cz", "programtv.onet.pl", "chaines-tv.orange.fr", "sat.tv"}  # test run 2026-11-01
+NO_DATA = {"berrymedia.co.kr", "chaines-tv.orange.fr", "clickthecity.com", "digiturk.com.tr", "distro.tv", "dsmart.com.tr", "ena.skylifetv.co.kr", "foxsports.com.au", "galamtv.kz", "m.tv.sms.cz", "m.tving.com", "magticom.ge", "mediagenie.co.kr", "meuguia.tv", "musor.tv", "nuevosiglo.com.uy", "playtv.unifi.com.my", "programme-tv.vini.pf", "programtv.onet.pl", "sat.tv", "superguidatv.it", "tapdmv.com", "teleboy.ch", "turksatkablo.com.tr", "tv.lv", "tv.mail.ru", "tvcesoir.fr", "tvcubana.icrt.cu", "tvmi.mt", "tvmusor.hu", "v3.myafn.dodmedia.osd.mil", "walesi.com.fj", "watch.sportsnet.ca", "wavve.com", "zap.co.ao"}  # no programme at all in the test runs of 2026-11-01
 LANG_COUNTRY = {"de": "DE", "it": "IT", "es": "ES", "fr": "FR", "pt": "PT", "nl": "NL", "en": "UK", "ja": "JP", "zh": "CN"}
 SKY_PREFIX = {"DE": "DE", "GB": "UK", "IT": "IT"}
 
@@ -99,8 +99,11 @@ for f in sorted(glob.glob(f"{EPG}/sites/*/*.channels.xml")):
         rank += (0 if (country not in DACH or a.get("lang") == "de") else 1, -size.get(site, 0), 0 if xid.endswith("@SD") or "@" not in xid else 1)
         cands[(country, stem)].append((rank, a, name))
 
-# one source per channel
+# one source per channel; channels whose only sources delivered nothing are left out (they only cost time)
 chosen = {k: sorted(v, key=lambda x: x[0])[0] for k, v in cands.items()}
+dropped_no_data = [k for k, v in chosen.items() if v[1]["site"] in NO_DATA]
+for k in dropped_no_data:
+    chosen.pop(k)
 
 # duplicate check: a channel from sky.com / dazn.com / www.magenta.tv without database id whose name equals a
 # channel already in the list (same country) is the same channel -> keep the one with the database id.
@@ -146,7 +149,7 @@ for i, sh in enumerate(shards, 1):
     open(f"{ROOT}/channels/shard{i}.xml", "w", encoding="utf-8").write("\n".join(lines) + "\n")
 
 countries = Counter(c for c, _ in chosen)
-print(f"channels: {len(chosen)} (synthetic ids: {synthetic}, duplicates removed: {len(dupes)})")
+print(f"channels: {len(chosen)} (synthetic ids: {synthetic}, duplicates removed: {len(dupes)}, without working source: {len(dropped_no_data)})")
 print("shards:", load)
 print("DACH:", sum(countries[c] for c in DACH), "| top:", countries.most_common(12))
 print("per extra site:", {s: len(by_site.get(s, [])) for s in sorted(EXTRA_SITES)})

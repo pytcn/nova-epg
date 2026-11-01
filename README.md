@@ -1,7 +1,7 @@
 # nova-epg
 
-Programmführer (XMLTV) für die App **NOVA+**: 7.137 Sender aus der iptv-org-Senderdatenbank (`data/channels.csv`),
-für die es eine funktionierende Programmquelle gibt – ohne Russland, China, Japan, Afrika und den Balkan
+Programmführer (XMLTV) für die App **NOVA+**: 6.530 Sender aus der iptv-org-Senderdatenbank (`data/channels.csv`),
+für die es eine funktionierende Programmquelle gibt (im Testlauf geprüft) – ohne Russland, China, Japan, Afrika und den Balkan
 (Türkei bleibt drin), ohne eingestellte Sender und ohne Doppelte.
 Zusätzlich vollständig: sky.com (DE/UK/IT), dazn.com und www.magenta.tv; ergänzend die fertige Datei von epg.lat (DE).
 

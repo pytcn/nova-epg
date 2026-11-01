@@ -254,7 +254,14 @@
   <channel site="i.mjh.nz" lang="en" xmltv_id="FlicksofFury.us@SD" site_id="PlutoTV/us#58e55b14ad8e9c364d55f717">Flicks of Fury</channel>
   <channel site="i.mjh.nz" lang="en" xmltv_id="ForensicFiles.us@SD" site_id="Plex/au#697140a85d851f5e69414688-68db6db222efe0c218a90a9d">Forensic Files</channel>
   <channel site="i.mjh.nz" lang="en" xmltv_id="ForeverKids.us@SD" site_id="PlutoTV/us#56171fafada51f8004c4b40f">Forever Kids</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="FoxCricket.au@SD" site_id="Foxtel/epg#FS1">FOX CRICKET</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="FoxFooty.au@SD" site_id="Foxtel/epg#FAF">FOX Footy</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="FoxLeague.au@SD" site_id="Foxtel/epg#SP2">FOX League</channel>
   <channel site="i.mjh.nz" lang="en" xmltv_id="FoxSoul.us@SD" site_id="Roku/all#bdf6b34e48585f588789f7e7857a84a6">FOX Soul</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="FoxSports503.au@SD" site_id="Foxtel/epg#FS3">Fox Sports 503</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="FoxSports505.au@SD" site_id="Foxtel/epg#FSP">Fox Sports 505</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="FoxSports506.au@SD" site_id="Foxtel/epg#SPS">Fox Sports 506</channel>
+  <channel site="i.mjh.nz" lang="en" xmltv_id="FoxSportsMorePlus.au@SD" site_id="Foxtel/epg#FSS">Fox Sports More</channel>
   <channel site="i.mjh.nz" lang="en" xmltv_id="FoxSportsNews.au@SD" site_id="Flash/epg#fox-sports-news">Fox Sports News</channel>
   <channel site="i.mjh.nz" lang="en" xmltv_id="Fox8.au@SD" site_id="Binge/epg#15458">FOX8</channel>
   <channel site="i.mjh.nz" lang="en" xmltv_id="FoxtelOne.au@SD" site_id="Binge/epg#15464">Foxtel One</channel>

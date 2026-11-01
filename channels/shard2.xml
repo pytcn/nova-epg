@@ -1,96 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <channels>
-  <channel site="9tv.co.il" lang="ru" xmltv_id="Channel9.il@SD" site_id="#">9 канал</channel>
-  <channel site="app.tvufop.com.br" lang="pt" xmltv_id="TVUFOP.br@HD" site_id="TVUFOP.br@HD">TV UFOP</channel>
-  <channel site="distro.tv" lang="en" xmltv_id="BusinessRockstars.us@SD" site_id="42160">Business Rockstars</channel>
-  <channel site="distro.tv" lang="en" xmltv_id="DeFianceMedia.pr@SD" site_id="95621">DeFiance Media</channel>
-  <channel site="distro.tv" lang="en" xmltv_id="DungeonTV.us@SD" site_id="42162">Dungeon TV</channel>
-  <channel site="distro.tv" lang="en" xmltv_id="JewishLifeTelevision.us@SD" site_id="103370">Jewish Life Television JLTV</channel>
-  <channel site="distro.tv" lang="en" xmltv_id="KozoomTV.fr@SD" site_id="83822">KOZOOM TV</channel>
-  <channel site="distro.tv" lang="en" xmltv_id="RVTV.us@HD" site_id="144407">RVTV</channel>
-  <channel site="distro.tv" lang="en" xmltv_id="SchwabNetwork.us@SD" site_id="36454">Schwab Network</channel>
-  <channel site="distro.tv" lang="en" xmltv_id="StingrayRockAlternative.ca@SD" site_id="35974">Stingray Rock Alternative</channel>
-  <channel site="distro.tv" lang="en" xmltv_id="WineWatchesWhiskey.us@HD" site_id="144408">Wine, Watches &amp; Whiskey</channel>
-  <channel site="epg.tmacaraibes.com" lang="fr" xmltv_id="TMA.gp@SD" site_id="TMA.gp@SD">TMA</channel>
-  <channel site="horizon.tv" lang="sk" xmltv_id="EuronewsHungarian.fr@SD" site_id="10152">Euronews HU</channel>
-  <channel site="horizon.tv" lang="sk" xmltv_id="Folklorika.sk@SD" site_id="10014">Folklorika HD</channel>
-  <channel site="horizon.tv" lang="en" xmltv_id="FoodNetwork.hu@SD" site_id="10056">Food Network HD</channel>
-  <channel site="horizon.tv" lang="cs" xmltv_id="HobbyTV.cz@SD" site_id="10069">Hobby TV HD</channel>
-  <channel site="horizon.tv" lang="sk" xmltv_id="JimJam.hu@SD" site_id="10087">JimJam</channel>
-  <channel site="horizon.tv" lang="sk" xmltv_id="JOJ24.sk@SD" site_id="10198">JOJ 24 HD</channel>
-  <channel site="horizon.tv" lang="sk" xmltv_id="JOJSport.sk@SD" site_id="10185">JOJ Sport HD</channel>
-  <channel site="horizon.tv" lang="sk" xmltv_id="ParkTV.sk@SD" site_id="10070">Park TV HD</channel>
-  <channel site="horizon.tv" lang="sk" xmltv_id="Relax.cz@SD" site_id="10106">RELAX</channel>
-  <channel site="horizon.tv" lang="sk" xmltv_id="SlagerMuzika.cz@SD" site_id="10102">Slager muzika HD</channel>
-  <channel site="horizon.tv" lang="sk" xmltv_id="SlagerOriginal.cz@SD" site_id="10101">Slager original HD</channel>
-  <channel site="horizon.tv" lang="cs" xmltv_id="SpektrumHome.hu@SD" site_id="10061">Spektrum home HD</channel>
-  <channel site="horizon.tv" lang="sk" xmltv_id="TurboTV.sk@SD" site_id="10195">TurboTV HD</channel>
-  <channel site="horizon.tv" lang="sk" xmltv_id="TVRaj.sk@SD" site_id="10038">TV Raj HD</channel>
-  <channel site="horizon.tv" lang="sk" xmltv_id="TVRomana.sk@SD" site_id="10184">TV Romana HD</channel>
-  <channel site="horizon.tv" lang="sk" xmltv_id="TVRuzinov.sk@SD" site_id="10039">TV Ruzinov HD</channel>
-  <channel site="makrodigitaltelevision.com" lang="es" xmltv_id="MakroDigitalTelevision.ec@SD" site_id="17">MakroDigital Television</channel>
-  <channel site="mytelly.co.uk" lang="en" xmltv_id="CNBCUK.uk@SD" site_id="1511/cnbc-uk">CNBC UK</channel>
-  <channel site="mytelly.co.uk" lang="en" xmltv_id="CreateandCraft.uk@SD" site_id="2251/create-craft">Create &amp; Craft</channel>
-  <channel site="mytelly.co.uk" lang="en" xmltv_id="LondonLive.uk@SD" site_id="1863/london-live">London Live</channel>
-  <channel site="mytelly.co.uk" lang="en" xmltv_id="MTVMusic.uk@SD" site_id="1632/mtv-music">MTV Music</channel>
-  <channel site="mytelly.co.uk" lang="en" xmltv_id="Pop.uk@SD" site_id="1403/pop">Pop</channel>
-  <channel site="mytelly.co.uk" lang="en" xmltv_id="PopMax.uk@SD" site_id="1862/pop-max">Pop Max</channel>
-  <channel site="mytelly.co.uk" lang="en" xmltv_id="QVC2.uk@SD" site_id="2422/qvc2">QVC2</channel>
-  <channel site="mytelly.co.uk" lang="en" xmltv_id="SanskarUK.in@SD" site_id="2116/sanskar">Sanskar</channel>
-  <channel site="mytelly.co.uk" lang="en" xmltv_id="SkyCinemaAnimation.uk@SD" site_id="2326/sky-cinema-animation">Sky Cinema Animation</channel>
-  <channel site="mytelly.co.uk" lang="en" xmltv_id="SkyReplay.uk@SD" site_id="919/sky-replay">Sky Replay</channel>
-  <channel site="mytelly.co.uk" lang="en" xmltv_id="STVCentral.uk@SD" site_id="40/stv-central">STV Central</channel>
-  <channel site="mytelly.co.uk" lang="en" xmltv_id="STVNorth.uk@SD" site_id="41/stv-north">STV North</channel>
-  <channel site="mytelly.co.uk" lang="en" xmltv_id="TinyPop.uk@SD" site_id="1402/tiny-pop">Tiny Pop</channel>
-  <channel site="mytvsuper.com" lang="en" xmltv_id="CNAInternational.sg@SD" site_id="CCNA">Channel NewsAsia</channel>
-  <channel site="mytvsuper.com" lang="en" xmltv_id="ChineseOperaChannel.hk@SD" site_id="CCOC">Chinese Opera Channel</channel>
-  <channel site="mytvsuper.com" lang="en" xmltv_id="ClassicMovies.hk@SD" site_id="CCLM">Classic Movies</channel>
-  <channel site="mytvsuper.com" lang="zh" xmltv_id="CreationTV.hk@SD" site_id="CRE">Creation TV</channel>
-  <channel site="mytvsuper.com" lang="en" xmltv_id="GoldenJade.hk@SD" site_id="TVG">Golden Jade</channel>
-  <channel site="mytvsuper.com" lang="en" xmltv_id="J2.hk@SD" site_id="B">J2</channel>
-  <channel site="mytvsuper.com" lang="en" xmltv_id="MainlandNewsChannel.hk@SD" site_id="CMN1">Mainland News</channel>
-  <channel site="mytvsuper.com" lang="en" xmltv_id="MeiAhMovieChannel.hk@SD" site_id="CMAM">Mei Ah Movie Channel</channel>
-  <channel site="mytvsuper.com" lang="en" xmltv_id="myTVSUPER18.hk@SD" site_id="C18">myTV SUPER 18</channel>
-  <channel site="mytvsuper.com" lang="en" xmltv_id="myTVSUPERLiveSoccer1.hk@SD" site_id="EVT1">myTV SUPER Live Soccer 1</channel>
-  <channel site="mytvsuper.com" lang="en" xmltv_id="myTVSUPERLiveSoccer2.hk@SD" site_id="EVT2">myTV SUPER Live Soccer 2</channel>
-  <channel site="mytvsuper.com" lang="en" xmltv_id="myTVSUPERLiveSoccer3.hk@SD" site_id="EVT3">myTV SUPER Live Soccer 3</channel>
-  <channel site="mytvsuper.com" lang="en" xmltv_id="myTVSUPERLiveSoccer4.hk@SD" site_id="EVT4">myTV SUPER Live Soccer 4</channel>
-  <channel site="mytvsuper.com" lang="en" xmltv_id="myTVSUPERLiveSoccer5.hk@SD" site_id="EVT5">myTV SUPER Live Soccer 5</channel>
-  <channel site="mytvsuper.com" lang="en" xmltv_id="Pearl.hk@SD" site_id="P">Pearl</channel>
-  <channel site="mytvsuper.com" lang="en" xmltv_id="PhoenixHongKongChannel.hk@SD" site_id="PHK">Phoenix Hong Kong Channel</channel>
-  <channel site="mytvsuper.com" lang="en" xmltv_id="AsianVariety.hk@SD" site_id="CWIN">SUPER FREE</channel>
-  <channel site="mytvsuper.com" lang="en" xmltv_id="HandsUpChannel.hk@SD" site_id="KID">SUPER Kids Channel</channel>
-  <channel site="mytvsuper.com" lang="zh" xmltv_id="TVBFinanceSportsInformationChannel.hk@SD" site_id="A">TVB Finance, Sports &amp; Information Channel</channel>
-  <channel site="mytvsuper.com" lang="en" xmltv_id="TVBNewsChannel.hk@SD" site_id="C">TVB News Channel</channel>
-  <channel site="neo.io" lang="it" xmltv_id="CentoXCentoTV.it@SD" site_id="centoxcento">CentoXCento</channel>
-  <channel site="neo.io" lang="sl" xmltv_id="OneAdria.de@SD" site_id="one-adria">One Adria</channel>
-  <channel site="neo.io" lang="en" xmltv_id="PassionXXX.nl@SD" site_id="passion-xxx-hd">Passion XXX</channel>
-  <channel site="neo.io" lang="en" xmltv_id="RealityKingsTV.us@SD" site_id="reality-kings-tv">Reality Kings TV</channel>
-  <channel site="neo.io" lang="en" xmltv_id="VividTouch.uk@SD" site_id="vivid-touch">Vivid Touch</channel>
-  <channel site="nostv.pt" lang="pt" xmltv_id="CanalNos.pt@SD" site_id="408">Canal NOS</channel>
-  <channel site="nostv.pt" lang="pt" xmltv_id="FUELTV.pt@EMEA" site_id="72">Fuel TV</channel>
-  <channel site="nostv.pt" lang="pt" xmltv_id="Globo.pt@SD" site_id="447">Globo</channel>
-  <channel site="nostv.pt" lang="pt" xmltv_id="MTV.pt@SD" site_id="377">MTV Portugal</channel>
-  <channel site="nostv.pt" lang="pt" xmltv_id="NosStudios.pt@SD" site_id="547">NOS Studios</channel>
-  <channel site="nostv.pt" lang="pt" xmltv_id="CanalMacau.mo@SD" site_id="714">TDM</channel>
-  <channel site="player.ee.co.uk" lang="en" xmltv_id="Babestation.uk@SD" site_id="dvb://233a..6d00">ADULT Babestn</channel>
-  <channel site="player.ee.co.uk" lang="en" xmltv_id="SkySportsArena.uk@SD" site_id="http://bds.tv/services/BT_771051_3839_SD">Sky Sports +</channel>
-  <channel site="player.ee.co.uk" lang="en" xmltv_id="Thats90s.uk@SD" site_id="dvb://233a..5d60">That&apos;s 70s</channel>
-  <channel site="plex.tv" lang="it" xmltv_id="BizzarroMovies.it@SD" site_id="6438e6602db15a520e46bb0a">Bizzarro Movies</channel>
-  <channel site="plex.tv" lang="de" xmltv_id="INFAST.nl@DE" site_id="6674c3c0a9c715b93ca6ca94">INFAST</channel>
-  <channel site="plex.tv" lang="pt" xmltv_id="MyTimeMovieNetwork.br@SD" site_id="644874236e1dc0bf5664a674">MyTime Movie Network</channel>
-  <channel site="plex.tv" lang="de" xmltv_id="Nachrichten360.de@HD" site_id="693cb30a58076a970420f593">Nachrichten 360</channel>
-  <channel site="plex.tv" lang="it" xmltv_id="StorieCriminali.es@IT" site_id="6720013129bcfe7b69d4fef9">Storie Criminali</channel>
-  <channel site="plex.tv" lang="pt" xmltv_id="ToonGogglesenEspanol.us@SD" site_id="675a401b67838c2b166105d8">Toon Goggles</channel>
-  <channel site="plex.tv" lang="it" xmltv_id="ViaggiSapori.es@IT" site_id="67200cfd727d52d7a0e0b493">Viaggi &amp; Sapori</channel>
-  <channel site="plex.tv" lang="en" xmltv_id="XITEAllOutDance.nl@SD" site_id="688d36ff324d7b6bc1161d83">XITE All Out Dance</channel>
-  <channel site="plex.tv" lang="en" xmltv_id="XITELekkerHollands.nl@SD" site_id="688d37d7324d7b6bc1161d85">XITE Lekker Hollands</channel>
-  <channel site="plex.tv" lang="en" xmltv_id="XITEUltimateThrowback.nl@SD" site_id="688d35f9324d7b6bc1161d81">XITE Ultimate Throwback</channel>
-  <channel site="plex.tv" lang="en" xmltv_id="XITEVanEigenBodem.nl@SD" site_id="69271d189a72be80552c059f">XITE Van Eigen Bodem</channel>
-  <channel site="rthk.hk" lang="en" xmltv_id="RTHKTV31.hk@SD" site_id="31">TV 31</channel>
-  <channel site="rthk.hk" lang="en" xmltv_id="RTHKTV32.hk@SD" site_id="32">TV 32</channel>
-  <channel site="rthk.hk" lang="en" xmltv_id="RTHKTV33.hk@SD" site_id="33">TV 33</channel>
-  <channel site="rthk.hk" lang="en" xmltv_id="RTHKTV34.hk@SD" site_id="34">TV 34</channel>
+  <channel site="aljazeera.com" lang="ar" xmltv_id="AlJazeera2.qa@HD" site_id="aja#aj2">Al Jazeera 2</channel>
+  <channel site="derana.lk" lang="sn" xmltv_id="TVDerana.lk@SD" site_id="#">TV Derana</channel>
+  <channel site="guida.tv" lang="it" xmltv_id="DonnaTV.it@SD" site_id="68797878/donna-tv">Donna TV</channel>
+  <channel site="guida.tv" lang="it" xmltv_id="SkySportFootball.it@SD" site_id="83757079/sky-sport-football">Sky Sport Football</channel>
+  <channel site="ionplustv.com" lang="en" xmltv_id="IONPlus.us@East" site_id="#">ION Plus</channel>
+  <channel site="pbsguam.org" lang="en" xmltv_id="KGTF121.gu@HD" site_id="#">PBS Guam</channel>
   <channel site="sky.com" lang="en" xmltv_id="SubB1000.uk" site_id="GB#9900">(sub b +1000)</channel>
   <channel site="sky.com" lang="it" xmltv_id="Frisbee.it@SD" site_id="IT#418">-frisbee-</channel>
   <channel site="sky.com" lang="de" xmltv_id="WDR1Live.de@SD" site_id="DE#1429">1LIVE</channel>
@@ -878,12 +793,9 @@
   <channel site="sky.com" lang="en" xmltv_id="ZeeCinema.in@SD" site_id="GB#2608">Zee Cinema</channel>
   <channel site="sky.com" lang="en" xmltv_id="ZeePunjabi.in@SD" site_id="GB#1188">Zee Punjabi</channel>
   <channel site="sky.com" lang="en" xmltv_id="ZeeTVUK.uk@SD" site_id="GB#2607">Zee TV</channel>
-  <channel site="streamingtvguides.com" lang="en" xmltv_id="GMAPinoyTVUSACanada.ph@SD" site_id="GMAPNY">GMA Pinoy TV</channel>
-  <channel site="tivie.id" lang="id" xmltv_id="CNNIndonesia.id@SD" site_id="cnnindonesia">CNN</channel>
-  <channel site="tivie.id" lang="id" xmltv_id="GarudaTV.id@SD" site_id="garudatv">Garuda TV</channel>
-  <channel site="tivie.id" lang="id" xmltv_id="NusantaraTV.id@SD" site_id="nusantaratv">Nusantara TV</channel>
-  <channel site="tivie.id" lang="id" xmltv_id="SinPoTV.id@HD" site_id="sinpotv">Sin Po TV</channel>
-  <channel site="tivie.id" lang="id" xmltv_id="VTV.id@SD" site_id="vtv">VTV</channel>
-  <channel site="tivie.id" lang="id" xmltv_id="WarnerTVAsia.us@SD" site_id="warner">Warner TV</channel>
-  <channel site="x1co.com.br" lang="pt" xmltv_id="NickOnline.br@HD" site_id="nickonline.br">NickOnline</channel>
+  <channel site="tvguide.myjcom.jp" lang="ja" xmltv_id="TV5MondePacific.fr@SD" site_id="120_104_65406">ＴＶ５ＭＯＮＤＥ</channel>
+  <channel site="vantagetv.ee" lang="en" xmltv_id="VantageClassic.ee@HD" site_id="vclassic">Vantage Classic</channel>
+  <channel site="vantagetv.ee" lang="en" xmltv_id="VantageDance.ee@HD" site_id="vdance">Vantage Dance</channel>
+  <channel site="vantagetv.ee" lang="en" xmltv_id="VantageMusic.ee@HD" site_id="vmusic">Vantage Music</channel>
+  <channel site="vantagetv.ee" lang="en" xmltv_id="VantageRock.ee@HD" site_id="vrock">Vantage Rock</channel>
 </channels>
