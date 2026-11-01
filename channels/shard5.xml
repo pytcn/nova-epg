@@ -1,0 +1,1011 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channels>
+  <channel site="antennasatellite.gr" lang="el" xmltv_id="ANT1Satellite.gr@SD" site_id="#">ANT1 SATELLITE</channel>
+  <channel site="bein.com" lang="en" xmltv_id="FoxArabia.ae@SD" site_id="entertainment#13">13</channel>
+  <channel site="bein.com" lang="en" xmltv_id="HGTVArabia.us@SD" site_id="entertainment#15">15</channel>
+  <channel site="bein.com" lang="en" xmltv_id="CNNArabic.ae@SD" site_id="entertainment#26">26</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="AlJazeeraDocumentary.qa@SD" site_id="entertainment#26">26</channel>
+  <channel site="bein.com" lang="en" xmltv_id="BeJunior.qa@SD" site_id="entertainment#29">29</channel>
+  <channel site="bein.com" lang="en" xmltv_id="JeemTV.qa@SD" site_id="entertainment#30">30</channel>
+  <channel site="bein.com" lang="en" xmltv_id="AlkassThree.qa@SD" site_id="sports#35">35</channel>
+  <channel site="bein.com" lang="en" xmltv_id="AlkassFour.qa@SD" site_id="sports#36">36</channel>
+  <channel site="bein.com" lang="en" xmltv_id="AlkassFive.qa@SD" site_id="sports#37">37</channel>
+  <channel site="bein.com" lang="en" xmltv_id="AlkassSix.qa@SD" site_id="sports#38">38</channel>
+  <channel site="bein.com" lang="en" xmltv_id="AlkassSeven.qa@SD" site_id="sports#39">39</channel>
+  <channel site="bein.com" lang="en" xmltv_id="AlkassEight.qa@SD" site_id="sports#40">40</channel>
+  <channel site="bein.com" lang="en" xmltv_id="Baraem.qa@SD" site_id="entertainment#25">BaraemTV</channel>
+  <channel site="bein.com" lang="ar" xmltv_id="beINGourmet.qa@SD" site_id="entertainment#12">beINGOURMET</channel>
+  <channel site="bein.com" lang="en" xmltv_id="beINMovies4Family.qa@SD" site_id="entertainment#4">beINMOVIES4</channel>
+  <channel site="bein.com" lang="en" xmltv_id="beINSports4KHDR.qa" site_id="sports#26">beINSPORTS4KHDR</channel>
+  <channel site="bein.com" lang="en" xmltv_id="beINSports9.qa@MENA" site_id="sports#9">beINSPORTS9</channel>
+  <channel site="directv.com.uy" lang="es" xmltv_id="NuestraTeleInternacional.co@SD" site_id="775#NTEL">RCN Nuestra Tele</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="9XJhakaas.in@SD" site_id="90012">9X Jhakaas</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="Aastha.in@SD" site_id="158133">Aastha</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="AasthaBhajan.in@SD" site_id="142514">Aastha Bhajan</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="AasthaKannada.in@SD" site_id="158134">Aastha Kannada</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="AasthaTelugu.in@SD" site_id="158136">Aastha Telugu</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="ABNAndhraJyoti.in@SD" site_id="142517">ABN Andhra Jyothy</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="AmritaTV.in@SD" site_id="142632">Amrita TV</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="AsianetSuvarnaNews.in@SD" site_id="142682">Asianet Suvarna News</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="AyushTV.in@SD" site_id="142692">Ayush TV</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="BalleBalle.in@SD" site_id="142697">Balle Balle</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="BhakthiTV.in@SD" site_id="142709">Bhakti TV</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="AKDCalcuttaNews.in@SD" site_id="142725">Calcutta News</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="Chithiram.in@SD" site_id="142738">Chithiram</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="CTVNAKDPlus.in@SD" site_id="142754">CTVN AKD Plus</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="DarshanaTV.in@SD" site_id="142774">Darshana TV</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="DDGoa.in@SD" site_id="142783">DD GOA</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="DDHaryana.in@SD" site_id="142784">DD Haryana</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="DDMizoram.in@SD" site_id="142794">DD MIZORAM</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="DDNagaland.in@SD" site_id="142795">DD NAGALAND</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="DDUttarakhand.in@SD" site_id="142809">DD Uttrakhand</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="DishBuzz.in@SD" site_id="142894">Dish Buzz</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="ChannelDivya.in@SD" site_id="143010">Divya</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="EpicBharat.in@SD" site_id="158303">Epic Bharat</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="GoldminesBollywood.in@SD" site_id="143089">Goldmines Bollywood</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="GoldminesMovies.in@SD" site_id="142881">Goldmines Movies</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="GTCNews.in@SD" site_id="202705">GTC News HD</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="GTCPunjabi.in@SD" site_id="202704">GTC Punjabi HD</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="GujaratFirst.in@SD" site_id="143096">Gujarat First</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="HareKrsnaTV.in@SD" site_id="143102">Hare Krsna</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="HinduDharmam.in@SD" site_id="143131">HINDU DHARMAM</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="HMTV.in@SD" site_id="143136">HMTV</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="IndiaNewsHaryana.in@SD" site_id="143192">India News Haryana</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="JinvaniChannel.in@SD" site_id="143230">Jinvani</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="JK24x7News.in@SD" site_id="143237">JK 24x7 News</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="KNewsIndia.in@SD" site_id="143244">K News India</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="KhabrainAbhiTak.in@SD" site_id="143262">Khabrain Abhi Tak</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="KolkataTV.in@SD" site_id="143271">Kolkata TV</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="MalaiMurasuTV.in@SD" site_id="143297">Malaimurasu Seithikal</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="ManoranjanGrand.in@SD" site_id="143302">Manoranjan Grand</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="ManoranjanMovies.in@SD" site_id="143303">Manoranjan Movies</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="ManoranjanPrime.in@SD" site_id="154892">Manoranjan Prime</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="MBCTV.in@SD" site_id="135691">MBC TV</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="MusicIndia.in@SD" site_id="143563">Music India</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="NENews.in@SD" site_id="158851">Ne News</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="Nepal1.in@SD" site_id="143584">Nepal 1</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="Network10.in@SD" site_id="143585">Network 10</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="News1st.in@SD" site_id="143587">News 1st Kannada</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="NewsIndia24x7.in@SD" site_id="143593">News India 24x7</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="NewsNation.in@SD" site_id="143596">News Nation</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="NewsStatePunjabHaryanaHimachal.in@SD" site_id="169169">News State Punjab Haryana Himachal</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="News18DelhiNCRJK.in@SD" site_id="143611">News18 Delhi NCR Jammu Kashmir</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="News18Marathi.in@SD" site_id="143614">News18 Marathi</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="NewsX.in@SD" site_id="143624">NewsX</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="NTVTelugu.in@SD" site_id="154897">NTV</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="OscarMoviesBhojpuri.in@SD" site_id="143638">Oscar Movies Bhojpuri</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="PasandTV.in@SD" site_id="143643">Pasand</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="PolimerNews.in@SD" site_id="143664">Polimer News</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="PolimerTV.in@SD" site_id="143665">Polimer TV</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="PowervisionTV.in@SD" site_id="143670">Powervision</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="PragNews.in@SD" site_id="143671">Prag News</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="Rengoni.in@SD" site_id="143722">Rengoni TV</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="SadhnaTV.in@SD" site_id="143736">Sadhna TV</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="SandeshNews.in@SD" site_id="143755">Sandesh News</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="SangeetBhojpuri.in@SD" site_id="143757">Sangeet Bhojpuri</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="ShortsTV.uk@SD" site_id="157960">Shorts TV</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="SiriKannada.in@SD" site_id="143790">Siri Kannada</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="SongdewTV.in@SD" site_id="142920">Songdew</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="SonyMax1.in@SD" site_id="179440">Sony MAX 1</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="SVBC.in@SD" site_id="143889">SVBC</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="SVBC2.in@SD" site_id="143890">SVBC 2</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="TNews.in@SD" site_id="143919">T News</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="TheQIndia.us@SD" site_id="144002">TheQ</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="TV100.in@SD" site_id="173164">TV100</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="TV5Kannada.in@SD" site_id="144024">TV5 Kannada</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="UniqueTV.in@SD" site_id="158844">Unique TV</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="Vedic.in@SD" site_id="144069">Vedic</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="VelichamTV.in@SD" site_id="144070">Velicham TV</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="ZeeTeluguNews.in@SD" site_id="158329">Zee Telugu News</channel>
+  <channel site="dishtv.in" lang="en" xmltv_id="ZingHome.in@SD" site_id="144935">Zing Home</channel>
+  <channel site="distro.tv" lang="en" xmltv_id="BusinessRockstars.us@SD" site_id="42160">Business Rockstars</channel>
+  <channel site="distro.tv" lang="en" xmltv_id="DeFianceMedia.pr@SD" site_id="95621">DeFiance Media</channel>
+  <channel site="distro.tv" lang="en" xmltv_id="DungeonTV.us@SD" site_id="42162">Dungeon TV</channel>
+  <channel site="distro.tv" lang="en" xmltv_id="JewishLifeTelevision.us@SD" site_id="103370">Jewish Life Television JLTV</channel>
+  <channel site="distro.tv" lang="en" xmltv_id="KozoomTV.fr@SD" site_id="83822">KOZOOM TV</channel>
+  <channel site="distro.tv" lang="en" xmltv_id="RVTV.us@HD" site_id="144407">RVTV</channel>
+  <channel site="distro.tv" lang="en" xmltv_id="SchwabNetwork.us@SD" site_id="36454">Schwab Network</channel>
+  <channel site="distro.tv" lang="en" xmltv_id="StingrayRockAlternative.ca@SD" site_id="35974">Stingray Rock Alternative</channel>
+  <channel site="distro.tv" lang="en" xmltv_id="WineWatchesWhiskey.us@HD" site_id="144408">Wine, Watches &amp; Whiskey</channel>
+  <channel site="entertainment.ie" lang="en" xmltv_id="PremierSports1.ie@SD" site_id="premier-sports-1">Premier Sports 1</channel>
+  <channel site="entertainment.ie" lang="en" xmltv_id="PremierSports2.ie@SD" site_id="premier-sports-2">Premier Sports 2</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="1Plus1.ua@SD" site_id="1plus1">1+1</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="1Plus1International.ua@SD" site_id="1plus1-int">1+1 International</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="1Plus1Ukraina.ua@SD" site_id="1plus1-ukraina">1+1 Україна</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="1Plus2.lv@SD" site_id="1-2">1+2</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="2Plus2.ua@SD" site_id="2plus2">2+2</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="312Kino.kg@SD" site_id="312-kino">312 Кино</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="312Muzyka.kg@SD" site_id="312-music">312 Музыка</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="312TV.kg@SD" site_id="312-serial">312 Сериал</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="360TuneBox.nl@SD" site_id="360-tunebox">360TuneBox</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="4everCinema.ua@SD" site_id="4ever-cinema">4ever Cinema</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="4everDrama.ua@SD" site_id="4ever-drama">4ever Drama</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="4everMusic.ua@SD" site_id="4ever-music">4ever Music</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="4everTheater.ua@SD" site_id="4ever-theater">4ever Theater</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="5Sport.il@SD" site_id="yes-sport-5">5Sport</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="5Sport4K.il@SD" site_id="yes-sport-5-4k">5Sport 4K</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="6sotok.ua@SD" site_id="6sotok">6 соток</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="78.ru@SD" site_id="78kanal">78</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Channel8.ru@SD" site_id="8kanal-ru">8 канал</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Channel8International.ru@SD" site_id="8kanal-eu">8 канал International</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="AbaiTV.kz@SD" site_id="abaitv">Abai TV</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="AdultChannel.uk@SD" site_id="adult-channel">Adult Channel</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="AgroTVMoldova.md@SD" site_id="agro-tv-md">Agro TV Moldova</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Altai.kz@SD" site_id="altai-kz">Altai</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Aqjaiyq.kz@SD" site_id="aqjaiyq">AQJAIYQ</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Aqtobe.kz@SD" site_id="aqtobe">AQTOBE</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Armenia1.am@SD" site_id="h1-am">Armenia 1</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Armenia2.am@SD" site_id="h2-am">Armenia 2</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ATR.ua@SD" site_id="atr-ua">ATR</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ATVBazmocTV.am@SD" site_id="atv-bazmoc">ATV Bazmoc TV</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ATVFilmzone.am@SD" site_id="atv-filmzone">ATV Filmzone</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ATVKinoman.am@SD" site_id="atv-kinoman">ATV Kinoman</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Atyray.kz@SD" site_id="atyray">ATYRAY</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="BabyTime.ru@SD" site_id="baby-time">Baby Time</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="BCUCharmHD.ru@SD" site_id="bcu-charm">BCU Charm HD</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="beINSports4.qa@MENA" site_id="bein-sport-4">beIN Sports 4</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="beINSports5.qa@MENA" site_id="bein-sport-5">beIN Sports 5</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="beINSports6.qa@MENA" site_id="bein-sport-6">beIN Sports 6</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="beINSports7.qa@MENA" site_id="bein-sport-7">beIN Sports 7</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="beINSportsAFC.qa@SD" site_id="bein-sports-afc">beIN Sports AFC</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="beINSportsNBA.qa@SD" site_id="bein-sports-nba">beIN Sports NBA</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="beINSportsNews.qa@SD" site_id="bein-sports-news">beIN Sports News</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="BlueHustler.nl@SD" site_id="blue-hustler">Blue Hustler</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Bolt.ua@SD" site_id="bolt">Bolt</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="BTV.ug@SD" site_id="btv">BTV</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="StingrayCMusic.ca@SD" site_id="c-music-tv">C Music TV</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="CarsStarsTV.uk@SD" site_id="cars-n-stars">Cars &amp; Stars TV</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="CBCSport.az@HD" site_id="cbc-sport">CBC Sport</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="CinePlus.ua@SD" site_id="cine-plus">Cine+</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="CinePlusHit.ua@SD" site_id="cine-plus-hit-hd">Cine+ Hit</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="CinePlusKids.ua@SD" site_id="cine-plus-kids">Cine+ Kids</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ClubbingTV.us@Germany" site_id="clubbing-tv">Clubbing TV</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ContinentE.ua@SD" site_id="continent-e">Continent E</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="DaVinciLearning.in@SD" site_id="da-vinci">Da Vinci Learning</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="DAZNLaLiga2.uk@Spain" site_id="dazn-laliga2-es">DAZN LALIGA 2 [ES]</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="DAZNLaLiga.uk@Spain" site_id="dazn-laliga-es">DAZN LALIGA [ES]</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="DiscoveryScience.us@SD" site_id="discovery-science">Discovery Science</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ducktv.sk@SD" site_id="ducktv">ducktv</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ducktvPLUS.sk@SD" site_id="ducktv-plus">ducktv plus</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="DynamoKyivTV.ua@SD" site_id="dynamo-kyiv-tv">Dynamo Kyiv TV</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="EnglishClubTV.uk@SD" site_id="english-club-tv">English Club TV</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Equalympic.ua@SD" site_id="equalympic">Equalympic</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Eromania4K.ru@SD" site_id="eromania4k">Eromania 4K</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="EroX.nl@SD" site_id="erox">Erox</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Ertis.kz@SD" site_id="ertis">ERTIS</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Eurochannel.uk@SD" site_id="eurochannel">Eurochannel</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Eurosport4K.fr@France" site_id="eurosport-4k">Eurosport 4K</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="FashionOne.uk@SD" site_id="fashion-one">Fashion One</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="FashionTV.ua@SD" site_id="fashion-tv">Fashion TV</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="FastSports.pk@SD" site_id="fast-sport-am">Fast Sports</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="FastSports1.am@SD" site_id="fast-sport-1-am">Fast Sports 1</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="FastSports2.am@SD" site_id="fast-sport-2-am">Fast Sports 2</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="FreshTV.zm@SD" site_id="freshtv">Fresh TV</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="FXLife.ee@SD" site_id="foxlife">FX Life</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Gametoon.nl@SD" site_id="gametoon">Gametoon</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="GenuineTV.ua@SD" site_id="genuine">Genuine TV</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="GINXTV.uk@SD" site_id="ginx-esports">GINX Esports TV</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="GOLDTV.si@SD" site_id="gold-tv">Gold TV</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="History.ve@SD" site_id="history">History</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="HITTV.es@SD" site_id="hit-tv">HIT TV</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="HustlerHD.nl@SD" site_id="hustler-hd">Hustler HD</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="HustlerTV.us@SD" site_id="hustler-tv">Hustler TV</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ICTV2.ua@SD" site_id="ictv-ukraine">ICTV2</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="IDFashion.ua@SD" site_id="id-fashion">ID Fashion</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="InfoTV.vn@SD" site_id="info-tv">Info TV</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="INITEkstraTV.lt@SD" site_id="init-extra-tv">Init Ekstra TV</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="INITTV.lt@SD" site_id="init-tv">Init TV</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Jambyl.kz@SD" site_id="jambyl-kz">Jambyl</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="JustTV.lt@SD" site_id="7d7">Just TV</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="KBSWorld.kr@SD" site_id="kbs-world">KBS World</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="KentronTV.am@SD" site_id="kentron-tv">Kentron TV</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Kino1.xk@SD" site_id="kino-1">Kino 1</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Kino2.xk@SD" site_id="kino-1-hd">Kino 2</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="KinoPolskaMuzykaInternational.pl@SD" site_id="kinopolskamuz-int">Kino Polska Muzyka International</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Kinoliving.ua@SD" site_id="kinoliving">KinoLiving</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Kinowood.ua@SD" site_id="kinowood">Kinowood</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="KIONHIT.ru@SD" site_id="kion-xit">KION Хит</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Kokshe.kz@SD" site_id="kokshe">Kokshe</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Lale.ua@SD" site_id="lale">Lale</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="LatvijasSlagerkanals.lv@SD" site_id="latvijas-slagerkanals">Latvijas Šlāgerkanāls</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="LRTLituanica.lt@SD" site_id="lrt-lituanica">LRT Lituanica</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Magnat.ru@SD" site_id="magnat">Magnat</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Mangystay.kz@SD" site_id="mangystay">Mangystay</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="MedeniyyetTV.az@SD" site_id="medeniyyet">Medeniyyet TV</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="MiladyTelevision.ua@SD" site_id="milady-television">Milady Television</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Moldova1.md@SD" site_id="moldova-1">Moldova 1</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Moldova2.md@SD" site_id="moldova-2">Moldova 2</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="MovifyKino.lv@SD" site_id="movify-kino">Movify Kino</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="MuzLife.kz@SD" site_id="muzlife">MuzLife</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="MuzzOne.kz@SD" site_id="muzzone">MuzZone</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="MuzikasVideoKanals.lv@SD" site_id="muzikas-video-kanals">Mūzikas Video Kanāls</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="N4.md@SD" site_id="n4">N4</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="NauticalChannel.it@SD" site_id="nautical-channel">Nautical Channel</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="NickMusic.us@SD" site_id="nick-music">NickMusic</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="NikiJunior.ua@SD" site_id="niki-junior">Niki Junior</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="NikiKids.ua@SD" site_id="niki-kids">Niki Kids</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ObozrevatelTV.ua@SD" site_id="oboz-tv">OBOZ TV</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="OceanTV.gn@SD" site_id="ocean-tv">Ocean TV</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="OnePlanet.ua@SD" site_id="one-planet">One Planet</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Ontustik.kz@SD" site_id="ontustik">Ontustik</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="OrizontTV.md@SD" site_id="orizonttv-ro">Orizont TV</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Pingviins.lv@SD" site_id="lolo-tv-lv">Pingvīns</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="PlayTV.gr@SD" site_id="playtv">Play TV</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="PlayboyTV.us@SD" site_id="playboy-tv">Playboy TV</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Polonia1.pl@SD" site_id="polonia1">Polonia 1</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="PolsatSport1.pl@SD" site_id="polsat-sport">Polsat Sport 1</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="PolsatSport2.pl@SD" site_id="polsat-sport-extra">Polsat Sport 2</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="PolsatSport3.pl@SD" site_id="polsat-sport-news">Polsat Sport 3</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="PrivateTV.nl@SD" site_id="private-tv">Private TV</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Prokino.ua@SD" site_id="prokino">ProKino</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Provence.ua@SD" site_id="provence">Provence</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="PTV.ua@SD" site_id="ptv-ua">PTV</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Qostanai.kz@SD" site_id="qostanai-kz">Qostanai</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="QuizTV.ua@SD" site_id="quiz-tv">Quiz TV</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Qyzyljar.kz@SD" site_id="qyzyljar">Qyzyljar</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Qyzylorda.kz@SD" site_id="qyzylorda-kz">Qyzylorda</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="RedlightHD.nl@SD" site_id="redlight-hd">Redlight HD</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="RTVi.ru@SD" site_id="rtvi">RTVi</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="RussianExtremeUltra.ru@SD" site_id="russian-extreme-uhd">Russian Extreme Ultra HD</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="SanPorto.ru@SD" site_id="sanporto">San Porto</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Saryarqa.kz@SD" site_id="saryarqa">Saryarqa</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="SCT.it@SD" site_id="sct-xxx">SCT</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="SeaTV.lv@SD" site_id="sea-tv">Sea TV</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Semei.kz@SD" site_id="semei">Semei</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Sextosenso.it@SD" site_id="sextosenso">SextoSenso</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="SpectrumSportsNet.us@SD" site_id="spectrum-sportsnet-us">Spectrum SportsNet [US]</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Sport1.xk@SD" site_id="sport1-lt">Sport 1</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Sport1Baltic.ua@SD" site_id="sport1-baltic">Sport 1 Baltic</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Sport2Baltic.ua@SD" site_id="sport2-baltic">Sport 2 Baltic</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="SportKlub1.nl@Serbia" site_id="sportklub-1">Sport Klub 1 [HR]</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="SportKlub2.nl@Serbia" site_id="sportklub-2">Sport Klub 2 [HR]</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="SportKlub3.nl@Serbia" site_id="sportklub-3">Sport Klub 3</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="SportKlub4.nl@Serbia" site_id="sportklub-4">Sport Klub 4</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="SportKlub5.nl@Serbia" site_id="sportklub-5">Sport Klub 5</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="SPOTV.kr@SD" site_id="spotv">SPOTV</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="SPOTV2.kr@SD" site_id="spotv2">SPOTV2</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="StingrayiConcerts.ca@SD" site_id="iconcerts">Stingray iConcerts</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="SuperPlus.ua@SD" site_id="superplus">Super+</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="TBNArmenia.us@SD" site_id="tbn-armenia">TBN Armenia</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="TivibuSpor2.tr@SD" site_id="tivibu-spor-2">Tivibu Spor 2 [TR]</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="TivibuSpor3.tr@SD" site_id="tivibu-spor-3">Tivibu Spor 3 [TR]</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="TMTV.ru@SD" site_id="tmtv">TMTV</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="TravelChannel.us@East" site_id="travel-channel">Travel Channel</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="TVExtra.ru@SD" site_id="tv-extra">TV Extra</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="TVGuberniya.ru@SD" site_id="tv-guberniya">TV Губерния</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="TV3Sport.dk@SD" site_id="tvplay-sports">TV3 Sport</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Go3Sport3.ee@SD" site_id="tv3-sport-3">TV3 Sport 3</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Go3SportOpen.ee@SD" site_id="tv3-sport-open">TV3 Sport Open</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="TVPKultura2.pl@SD" site_id="tvp-kultura-2">TVP Kultura 2</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Ulytau.kz@SD" site_id="ulytau-kz">Ulytau</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="UniverTV.ru@SD" site_id="univer-tv">Univer TV</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="VFCartoon18Plus.ru@SD" site_id="vf-cartoon-18pl">VF Cartoon 18+</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="VHSka.ru@SD" site_id="vhs-ka">VHS-ка</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ViasatKino.ua@SD" site_id="tv1000-cee">Viasat Kino</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ViasatKinoAction.ua@SD" site_id="tv1000-action-cee">Viasat Kino Action</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ViasatKinoComedy.ua@SD" site_id="vip-comedy-cee">Viasat Kino Comedy</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ViasatKinoMegahit.ua@SD" site_id="vip-megahit-cee">Viasat Kino Megahit</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ViasatKinoWorld.uk@SD" site_id="tv1000-worldkino">Viasat Kino World</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="VIVARussia.ru@SD" site_id="viva-rus">VIVA Russia</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="WSport.za@SD" site_id="w-sport">W-Sport</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="XSport.ua@SD" site_id="xsport-ua">Xsport</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="XSportPlus.ua@SD" site_id="xsport-plus-ua">Xsport+</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Yes2.us@SD" site_id="yes2">Yes 2</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="YesDocu.il@SD" site_id="yes-doku">Yes Docu</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="YesMoviesKids.il@SD" site_id="yes-movies-kids">yes Movies Kids</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="YossoTVSexy.ru@SD" site_id="yosso-sexy">YOSSO TV SEXY</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Zoom.ua@SD" site_id="zoom-ua">Zoom</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Avers.ua@SD" site_id="avers">Аверс</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Almaznyykray.ru@SD" site_id="almazny-kray">Алмазный край</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Aris24.ru@SD" site_id="aris24">Арис 24</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ArmyTV.ua@SD" site_id="armia-tv-ua">Армія ТБ</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Arkhyz24.ru@SD" site_id="arxyz24">Архыз 24</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Astrahan24.ru@SD" site_id="astraxan24">Астрахань 24</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Balastan.kg@SD" site_id="balastan">Баластан</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Bashkortostan24.ru@SD" site_id="bashkortostan24">Башкортостан 24</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Belgorod24.ru@SD" site_id="belgorod24">Белгород 24</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="BST.ru@SD" site_id="bst">БСТ</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="BugTV.by@SD" site_id="bug-tv">Буг-ТВ</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Varjag.by@SD" site_id="variag">Варяг</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="VestnikNadyma.ru@SD" site_id="vestnik-nadyma">Вестник Надыма</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Vitebsk.by@SD" site_id="vitebsk">Витебск</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Volga.ru@SD" site_id="volga">Волга</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Volgograd1.ru@SD" site_id="volgograd-1">Волгоград 1</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Volgograd24.ru@SD" site_id="volgograd-24">Волгоград 24</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="GlazamiTurista.ru@SD" site_id="glazami-turista">Глазами туриста</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Groznyj.ru@SD" site_id="grozny">Грозный</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="GuberniaSamara.ru@SD" site_id="gubernia">Губерния</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Guberniya33.ru@SD" site_id="gubernia-33">Губерния 33</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Dacha.ua@SD" site_id="dacha">Дача</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="DenPobedy.ru@SD" site_id="denpobedy">День Победы</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="DIM.ua@SD" site_id="dom">Дом</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="DomashniyInternational.ru@SD" site_id="domashny-int">Домашний International</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Don24.ru@SD" site_id="don-24">Дон 24</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Eurasia.ru@SD" site_id="evrasia">Евразия</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="EspresoTV.ua@SD" site_id="espreso-tv">Еспресо TV</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ZagorodnyyInt.ru@SD" site_id="zagorodny-int">Загородный International</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Zvyazda.by@SD" site_id="zvyazda-by">Звязда</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Kavkaz24.ru@SD" site_id="kavkaz24">Кавказ 24</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="CarouselInternational.ru@SD" site_id="karusel-int">Карусель International</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Katun24.ru@SD" site_id="katun-24">Катунь 24</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Kino18Plus.ru@SD" site_id="kino18plus-tviksel">Кино 18+</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Kino18PlusInternational.ru@SD" site_id="kino18plusint-tviksel">Кино 18+ International</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="KinoSat.ru@SD" site_id="kinosat">Киносат</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="KinoHit.ru@SD" site_id="kinoxit">Кинохит</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Kyiv.ua@SD" site_id="kyiv-ua">Київ</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Crimea24.ru@SD" site_id="krym24">Крым 24</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Music.kg@SD" site_id="ktrk-muzyka">КТРК Музыка</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Sport.kg@SD" site_id="ktrk-sport">КТРК Спорт</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Kuban24.ru@SD" site_id="kuban-24">Кубань 24</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="KusKus.ua@SD" site_id="kus-kus">Кус-кус</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Legendarnyy24.ru@SD" site_id="legendarny24">Легендарный 24</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Lipeckoevremya.ru@SD" site_id="lipeckoe-vremia">Липецкое время</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Maidan.ru@SD" site_id="maydan">Майдан</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="MaturTV.ru@SD" site_id="matur-tv">Матур ТВ</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Mega.ua@SD" site_id="mega-ua">Мега</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Millet.ru@SD" site_id="millet">Миллет</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Ministerstvoidey.ru@SD" site_id="ministerstvo-idey">Министерство идей</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="MirBelogorya.ru@SD" site_id="mir-belogoria">Мир Белогорья</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Mordoviya24.ru@SD" site_id="mordovia-24">Мордовия 24</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Muzvar.ua@SD" site_id="muzwar">Музвар</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="HopeChannelUkraine.ua@SD" site_id="nadia">Надія</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Nauka.ua@SD" site_id="nauka">Наука</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="NashDom.ru@SD" site_id="nash-dom">Наш дом</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="NizhniyNovgorod24.ru@SD" site_id="nn-24">Нижний Новгород 24</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="NNT.ru@SD" site_id="nnt">ННТ</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="NNTV.ru@SD" site_id="nntv">ННТВ</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="NovyyMir.ru@SD" site_id="novy-mir">Новый мир</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="NTA.ua@SD" site_id="hta">НТА</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="NTVAmerica.us@SD" site_id="ntv-amerika">НТВ-Америка</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="NTVBelarus.by@SD" site_id="ntv-belarus">НТВ-Беларусь</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="NTM.ru@SD" site_id="ntm">НТМ</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="NTN.ua@SD" site_id="ntn-ua">НТН</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="OKino.ru@SD" site_id="okino">О!Кино</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ONT.by@SD" site_id="ont-by">ОНТ</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="OsetiyaIryston.ru@SD" site_id="osetia-iryston">Осетия-Ирыстон</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="GalychynaTV.ua@SD" site_id="otb-galychyna">ОТБ Галичина</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="OTVSakhalin.ru@SD" site_id="otv-saxalin">ОТВ Сахалин</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="OTS.ru@SD" site_id="ots">ОТС</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="OTSE.ua@SD" site_id="otse">Оце</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="PerviyInformationniy.by@SD" site_id="pervy-info-by">Первый информационный</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="PerviyKrymskiy.ru@SD" site_id="pervy-krymsky">Первый крымский</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="PervyyPskovskiy.ru@SD" site_id="pervy-pskovsky">Первый Псковский</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="PervyyTulskiy.ru@SD" site_id="pervy-tulsky">Первый тульский</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Pershyiavtomobilnyi.ua@SD" site_id="1auto">Перший автомобільний</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="PershyiZahidnyi.ua@SD" site_id="pershy-zaxidny">Перший Західний</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Pingvin.ru@SD" site_id="pingvin-lolo">Пингвин Лоло</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="PLUSPLUS.ua@SD" site_id="plusplus">ПлюсПлюс</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Prima.ru@SD" site_id="prima">Прима</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Priamyi.ua@SD" site_id="priamyj">Прямий</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="FridayInternational.ru@SD" site_id="piatnica-int">Пятница! International</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="RadioShanson.ru@SD" site_id="radio-shanson">Радио Шансон</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="RamenskoeTV.ru@SD" site_id="ramenskoe-tv">Раменское ТВ</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Rodnoykanal.ru@SD" site_id="rodnoy-kanal">Родной канал</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="RTRBelarus.by@SD" site_id="rtr-belarus">РТР-Беларусь</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="RusskiySever.ru@SD" site_id="russky-sever">Русский Север</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Rivne1.ua@SD" site_id="rivne1">Рівне 1</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Salyam.ru@SD" site_id="salam">Салям</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Saratov24.ru@SD" site_id="saratov-24">Саратов 24</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Svarozhychy.ua@SD" site_id="svarozhichi">Сварожичи</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="SvetloeTV.by@SD" site_id="svetloe-tv">Светлое ТВ</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Svitlo.ua@SD" site_id="epoque">Світло</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Sever.ru@SD" site_id="sever">Север</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Sila.ru@HD" site_id="sila">Сила</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Sonce.ua@SD" site_id="solnce">Солнце</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="SaltTV.ua@SD" site_id="soltv">Соль ТВ</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Sochi24.ru@SD" site_id="sochi24">Сочи24</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="STV.by@SD" site_id="stb-ua">СТБ</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="SuperGeroi.ru@SD" site_id="malysh">Супергерои</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Surgut24.ru@SD" site_id="surgut-24">Сургут 24</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Tamyr.ru@SD" site_id="tamyr">Тамыр</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="TVCentrInternational.ru@SD" site_id="tvci">ТВ Центр International</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="TV3International.ru@SD" site_id="tv3-int">ТВ3 International</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Televsesvit.ua@SD" site_id="televsesvit">Телевсесвіт</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Ternopil1.ua@SD" site_id="ternopil1">Тернопіль 1</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Terra.ua@SD" site_id="terra">Терра</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Tivikom.ru@SD" site_id="tivikom">Тивиком</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="TipTop.ru@SD" site_id="tiptop">ТипТоп</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="TNT4International.ru@SD" site_id="tnt4-international">ТНТ4 International</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Tolyatti24.ru@SD" site_id="tolyatti24">Тольятти 24</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Trofei.ua@SD" site_id="trofey">Трофей</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="TSV.md@SD" site_id="tcb">ТСВ</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="TuganTel.ru@SD" site_id="tugan-tel">Туган Тел</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="TyumenskoeVremya.ru@SD" site_id="tumenskoe-vremia">Тюменское время</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="TUSO.ua@SD" site_id="tuso">Тюсо</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Udmurtiya.ru@SD" site_id="udmurtia">Удмуртия</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="UchalyTV.ru@SD" site_id="uchaly-tv">Учалы ТВ</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Fauna.ua@SD" site_id="fauna">Фауна</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="HuzurTV.ru@SD" site_id="xuzur-tv">Хузур ТВ</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="TsentrKrasnoyarsk.ru@SD" site_id="centr-kraskoyarsk">Центр Красноярск</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Chizhik.ru@SD" site_id="chizhik">Чижик</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="ShayanTV.ru@SD" site_id="shayantv">Шаян ТВ</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Yurgan.ru@SD" site_id="yurgan">Юрган</channel>
+  <channel site="epg.iptvx.one" lang="ru" xmltv_id="Yakutiya24.ru@SD" site_id="yakutia24">Якутия 24</channel>
+  <channel site="foxsports.com.au" lang="en" xmltv_id="FoxCricket.au@SD" site_id="14">FOX Cricket</channel>
+  <channel site="foxsports.com.au" lang="en" xmltv_id="FoxFooty.au@SD" site_id="10">FOX Footy</channel>
+  <channel site="foxsports.com.au" lang="en" xmltv_id="FoxLeague.au@SD" site_id="2">FOX League</channel>
+  <channel site="foxsports.com.au" lang="en" xmltv_id="FoxSports503.au@SD" site_id="3">FOX Sports 503</channel>
+  <channel site="foxsports.com.au" lang="en" xmltv_id="FoxSports505.au@SD" site_id="11">FOX Sports 505</channel>
+  <channel site="foxsports.com.au" lang="en" xmltv_id="FoxSports506.au@SD" site_id="12">FOX Sports 506</channel>
+  <channel site="foxsports.com.au" lang="en" xmltv_id="FoxSportsMorePlus.au@SD" site_id="13">FOX Sports More</channel>
+  <channel site="gigatv.3bbtv.co.th" lang="th" xmltv_id="AlureChannel.th@SD" site_id="204">A&apos;lure Channel</channel>
+  <channel site="gigatv.3bbtv.co.th" lang="th" xmltv_id="ALTV.th@SD" site_id="4">ALTV</channel>
+  <channel site="gigatv.3bbtv.co.th" lang="th" xmltv_id="AmarinTV.th@SD" site_id="34">AmarinTV HD</channel>
+  <channel site="gigatv.3bbtv.co.th" lang="th" xmltv_id="DLTV1.th@SD" site_id="701">DLTV 1</channel>
+  <channel site="gigatv.3bbtv.co.th" lang="th" xmltv_id="DLTV10.th@SD" site_id="710">DLTV 10</channel>
+  <channel site="gigatv.3bbtv.co.th" lang="th" xmltv_id="DLTV11.th@SD" site_id="711">DLTV 11</channel>
+  <channel site="gigatv.3bbtv.co.th" lang="th" xmltv_id="DLTV12.th@SD" site_id="712">DLTV 12</channel>
+  <channel site="gigatv.3bbtv.co.th" lang="th" xmltv_id="DLTV13.th@SD" site_id="713">DLTV 13</channel>
+  <channel site="gigatv.3bbtv.co.th" lang="th" xmltv_id="DLTV14.th@SD" site_id="714">DLTV 14</channel>
+  <channel site="gigatv.3bbtv.co.th" lang="th" xmltv_id="DLTV15.th@SD" site_id="715">DLTV 15</channel>
+  <channel site="gigatv.3bbtv.co.th" lang="th" xmltv_id="DLTV2.th@SD" site_id="702">DLTV 2</channel>
+  <channel site="gigatv.3bbtv.co.th" lang="th" xmltv_id="DLTV3.th@SD" site_id="703">DLTV 3</channel>
+  <channel site="gigatv.3bbtv.co.th" lang="th" xmltv_id="DLTV4.th@SD" site_id="704">DLTV 4</channel>
+  <channel site="gigatv.3bbtv.co.th" lang="th" xmltv_id="DLTV5.th@SD" site_id="705">DLTV 5</channel>
+  <channel site="gigatv.3bbtv.co.th" lang="th" xmltv_id="DLTV6.th@SD" site_id="706">DLTV 6</channel>
+  <channel site="gigatv.3bbtv.co.th" lang="th" xmltv_id="DLTV7.th@SD" site_id="707">DLTV 7</channel>
+  <channel site="gigatv.3bbtv.co.th" lang="th" xmltv_id="DLTV8.th@SD" site_id="708">DLTV 8</channel>
+  <channel site="gigatv.3bbtv.co.th" lang="th" xmltv_id="DLTV9.th@SD" site_id="709">DLTV 9</channel>
+  <channel site="gigatv.3bbtv.co.th" lang="th" xmltv_id="ETV.th@SD" site_id="716">ETV</channel>
+  <channel site="gigatv.3bbtv.co.th" lang="th" xmltv_id="GMM25.th@SD" site_id="25">GMM 25</channel>
+  <channel site="gigatv.3bbtv.co.th" lang="th" xmltv_id="JKN18.th@SD" site_id="18">JKN 18</channel>
+  <channel site="gigatv.3bbtv.co.th" lang="th" xmltv_id="Khongdee.th@SD" site_id="221">Khongdee</channel>
+  <channel site="gigatv.3bbtv.co.th" lang="th" xmltv_id="Mangorn.th@SD" site_id="121">Mangorn</channel>
+  <channel site="gigatv.3bbtv.co.th" lang="th" xmltv_id="MCOTHD.th@SD" site_id="30">MCOT HD</channel>
+  <channel site="gigatv.3bbtv.co.th" lang="th" xmltv_id="MySci.th@SD" site_id="522">MySci</channel>
+  <channel site="gigatv.3bbtv.co.th" lang="th" xmltv_id="NationTV.th@SD" site_id="22">Nation TV</channel>
+  <channel site="gigatv.3bbtv.co.th" lang="th" xmltv_id="PPTV.th@SD" site_id="36">PPTV HD</channel>
+  <channel site="gigatv.3bbtv.co.th" lang="th" xmltv_id="Samrujlok.th@SD" site_id="521">Samrujlok</channel>
+  <channel site="gigatv.3bbtv.co.th" lang="th" xmltv_id="TSports7.th@SD" site_id="7">T Sports 7</channel>
+  <channel site="gigatv.3bbtv.co.th" lang="th" xmltv_id="ThainessTV.th@SD" site_id="222">Thainess</channel>
+  <channel site="gigatv.3bbtv.co.th" lang="th" xmltv_id="ThaiPBS.th@SD" site_id="3">ThaiPBS</channel>
+  <channel site="gigatv.3bbtv.co.th" lang="th" xmltv_id="ThairathTV.th@SD" site_id="32">Thairath TV</channel>
+  <channel site="gigatv.3bbtv.co.th" lang="th" xmltv_id="TNN16.th@SD" site_id="16">TNN16</channel>
+  <channel site="gigatv.3bbtv.co.th" lang="th" xmltv_id="ThaiParliamentTelevision.th@SD" site_id="10">TPTV</channel>
+  <channel site="gigatv.3bbtv.co.th" lang="th" xmltv_id="True4U.th@SD" site_id="24">True4U</channel>
+  <channel site="gigatv.3bbtv.co.th" lang="th" xmltv_id="WorkpointTV.th@SD" site_id="23">Workpoint</channel>
+  <channel site="horizon.tv" lang="en" xmltv_id="FoodNetwork.hu@SD" site_id="10056">Food Network HD</channel>
+  <channel site="horizon.tv" lang="sk" xmltv_id="JimJam.hu@SD" site_id="10087">JimJam</channel>
+  <channel site="horizon.tv" lang="sk" xmltv_id="TVRuzinov.sk@SD" site_id="10039">TV Ruzinov HD</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="21Junior.xk@SD" site_id="21-junior">21 Junior</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="21Mix.xk@SD" site_id="21-mix">21 Mix</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="21Plus.xk@SD" site_id="21-plus">21 Plus</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="21Popullore.xk@SD" site_id="21-popullore">21 Popullore</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="3Plus.al@SD" site_id="3-plus">3 Plus</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="A2CNN.al@SD" site_id="a2-cnn">A2 CNN</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="BangBang.al@SD" site_id="bang-bang">Bang Bang</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="BBFMusicTV.al@SD" site_id="bbf">BBF</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="BubbleTV.al@SD" site_id="bubble">Bubble</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="Click.al@SD" site_id="click-tv">Click TV</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="ClubTV.al@SD" site_id="club-tv">Club TV</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="Doku1.xk@SD" site_id="doku-1">Doku 1</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="Doku2.xk@SD" site_id="doku-2">Doku 2</channel>
+  <channel site="ipko.tv" lang="bs" xmltv_id="DreamPornTV.ba@SD" site_id="dream-porn">Dream Porn</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="DTV.xk@SD" site_id="dtv">DTV</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="ElrodiTV.al@SD" site_id="elrodi">Elrodi</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="Episode.xk@SD" site_id="episode">Episode</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="ExplorerHistori.al@SD" site_id="exp-histori">Explorer Histori</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="ExplorerShkence.al@SD" site_id="exp-shkence">Explorer Shkencë</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="FilmAutor.al@SD" site_id="film-autor">Film Autor</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="FilmDrame.al@SD" site_id="film-drame">Film Dramë</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="FilmHits.al@SD" site_id="film-hits-hd">Film Hits</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="FilmKomedi.al@SD" site_id="film-komedi">Film Komedi</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="FilmThriller.al@SD" site_id="film-thriller">Film Thriller</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="JuniorTV.al@SD" site_id="junior-tv">Junior TV</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="KSport1.xk@SD" site_id="k-sport-1">K-Sport 1</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="KSport2.xk@SD" site_id="k-sport-2">K-Sport 2</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="KSport3.xk@SD" site_id="k-sport-3">K-Sport 3</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="KSport4.xk@SD" site_id="k-sport-4">K-Sport 4</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="Kanal10.xk@SD" site_id="kanal-10">Kanal 10</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="KlanMusic.al@SD" site_id="klan-music">Klan Music</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="KlanNews.al@SD" site_id="klan-news">Klan News</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="KlanPlus.al@SD" site_id="klan-plus">Klan Plus</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="Muse.al@SD" site_id="muse">Muse</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="MyMusic.al@SD" site_id="my-music">My Music</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="ntv.al@SD" site_id="ntv">ntv</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="PrimeTV.xk@SD" site_id="prime-tv">Prime TV</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="RTVIliria.xk@SD" site_id="rti">RTI</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="RTK2.xk@SD" site_id="rtk-2">RTK 2</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="RTK3.xk@SD" site_id="rtk-3">RTK 3</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="RTK4.xk@SD" site_id="rtk-4">RTK 4</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="RTSHMuzike.al@SD" site_id="rtsh-muzike">RTSH Muzikë</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="RTSHPlus.al@SD" site_id="rtsh-plus">RTSH Plus</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="RTSHShqip.al@SD" site_id="rtsh-shqip">RTSH Shqip</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="RTVMir.xk@SD" site_id="rtv-mir">RTV Mir</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="Smile.al@SD" site_id="smile">Smile</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="Sport2.xk@SD" site_id="sport-2">Sport 2</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="Sport3.xk@SD" site_id="sport-3">Sport 3</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="Sport4.xk@SD" site_id="sport-4">Sport 4</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="Sport5.xk@SD" site_id="sport-5">Sport 5</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="Sport6.xk@SD" site_id="sport-6">Sport 6</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="StarPlus.al@SD" site_id="star-plus-tv">Star Plus</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="Stinet.al@SD" site_id="stinet">Stinët</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="STVFolk.al@SD" site_id="stv-folk">STV Folk</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="SuperSonicTV.al@SD" site_id="supersonic-tv">Supersonic TV</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="SuperSport1.al@SD" site_id="supersport-1">SuperSport 1</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="SuperSport2.al@SD" site_id="supersport-2">SuperSport 2</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="SuperSport3.al@SD" site_id="supersport-3">SuperSport 3</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="SuperSport4.al@SD" site_id="supersport-4">SuperSport 4</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="SuperSport5.al@SD" site_id="supersport-5">SuperSport 5</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="SuperSport6.al@SD" site_id="supersport-6">SuperSport 6</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="SuperSport7.al@SD" site_id="supersport-7">SuperSport 7</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="Syri.al@SD" site_id="syri-tv">Syri TV</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="SyriVision.xk@SD" site_id="tv-syri-vision">Syri Vision</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="T.al@SD" site_id="t-hd">T</channel>
+  <channel site="ipko.tv" lang="tr" xmltv_id="TGRTBelgesel.tr@SD" site_id="tgrt-belgesel">TGRT Belgesel</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="TipTV.al@SD" site_id="tip-tv">Tip TV</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="TravelingoTV.xk@SD" site_id="travelingo">Travelingo</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="TringClassic.al@SD" site_id="tring-classics">Tring Classic</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="TringCollection.al@SD" site_id="tring-collection">Tring Collection</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="TringComedy.al@SD" site_id="tring-comedy">Tring Comedy</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="TringFamily.al@SD" site_id="tring-family">Tring Family</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="TringFantasy.al@SD" site_id="tring-fantasy">Tring Fantasy</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="TringHistory.al@SD" site_id="tring-history">Tring History</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="TringKids.al@SD" site_id="tring-kids">Tring Kids</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="TringLife.al@SD" site_id="tring-life">Tring Life</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="TringNovelas.al@SD" site_id="novelas">Tring Novelas</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="TringPlanet.al@SD" site_id="tring-planet">Tring Planet</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="TringSport1.al@HD" site_id="tring-sport-1">Tring Sport 1</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="TringSport2.al@HD" site_id="tring-sport-2">Tring Sport 2</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="TringSport3.al@HD" site_id="tring-sport-3">Tring Sport 3</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="TringSport4.al@HD" site_id="tring-sport-4">Tring Sport 4</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="TringSport5.al@HD" site_id="tring-sport-5">Tring Sport 5</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="TringSport6.al@HD" site_id="tring-sport-6">Tring Sport 6</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="TringSport7.al@HD" site_id="tring-sport-7">Tring Sport 7</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="TringSuper.al@SD" site_id="tring-super-hd">Tring Super</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="TringWorld.al@SD" site_id="tring-world">Tring World</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="RTVBesa.xk@SD" site_id="tv-besa">TV Besa</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="TVFestina.xk@SD" site_id="tv-festina">TV Festina</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="TVLlapi.xk@SD" site_id="tv-llapi">TV Llapi</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="TVMitrovica.xk@SD" site_id="tv-mitrovica">TV Mitrovica</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="TVOpinion.xk@SD" site_id="tv-opinioni">TV Opinion</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="TemaTV.xk@SD" site_id="tv-tema">TV Tema</channel>
+  <channel site="ipko.tv" lang="sq" xmltv_id="Cufo.al@SD" site_id="cufo">Çufo</channel>
+  <channel site="mon-programme-tv.be" lang="fr" xmltv_id="AB3.be@SD" site_id="229/programme-television-ab3">AB3</channel>
+  <channel site="mon-programme-tv.be" lang="fr" xmltv_id="ABXplore.be@SD" site_id="1725/programme-television-abxplore">ABXPLORE</channel>
+  <channel site="mon-programme-tv.be" lang="fr" xmltv_id="Be1.be@SD" site_id="298/programme-television-be-1">BE 1</channel>
+  <channel site="mon-programme-tv.be" lang="fr" xmltv_id="BeCine.be@SD" site_id="300/programme-television-be-cine">BE CINE</channel>
+  <channel site="mon-programme-tv.be" lang="fr" xmltv_id="BeSeries.be@SD" site_id="393/programme-television-be-series">BE SERIES</channel>
+  <channel site="mon-programme-tv.be" lang="fr" xmltv_id="DiscoveryChannel.be@SD" site_id="292/programme-television-discovery-channel">DISCOVERY CHANNEL</channel>
+  <channel site="mon-programme-tv.be" lang="fr" xmltv_id="Ketnet.be@SD" site_id="164/programme-television-ketnet">KETNET</channel>
+  <channel site="mon-programme-tv.be" lang="fr" xmltv_id="LaTrois.be@SD" site_id="717/programme-television-la-trois">LA TROIS</channel>
+  <channel site="mon-programme-tv.be" lang="fr" xmltv_id="LaUne.be@SD" site_id="24/programme-television-la-une-rtbf">LA UNE (RTBF)</channel>
+  <channel site="mon-programme-tv.be" lang="fr" xmltv_id="LN24.be@SD" site_id="1873/programme-television-ln24">LN24</channel>
+  <channel site="mon-programme-tv.be" lang="fr" xmltv_id="Njam.be@SD" site_id="1167/programme-television-njam-">NJAM !</channel>
+  <channel site="mon-programme-tv.be" lang="fr" xmltv_id="RTLTVI.be@SD" site_id="19/programme-television-rtl-tvi">RTL tvi</channel>
+  <channel site="mon-programme-tv.be" lang="fr" xmltv_id="Tipik.be@SD" site_id="1916/programme-television-tipik">TIPIK</channel>
+  <channel site="mon-programme-tv.be" lang="fr" xmltv_id="Play4.be@SD" site_id="150/programme-television-vier">VIER</channel>
+  <channel site="mon-programme-tv.be" lang="fr" xmltv_id="Play5.be@SD" site_id="296/programme-television-vijf">VIJF</channel>
+  <channel site="mon-programme-tv.be" lang="fr" xmltv_id="VOOsportWorld1.be@SD" site_id="302/programme-television-voo-sport-world-1">VOO Sport World 1</channel>
+  <channel site="mon-programme-tv.be" lang="fr" xmltv_id="VOOsportWorld2.be@SD" site_id="303/programme-television-voo-sport-world-2">VOO Sport World 2</channel>
+  <channel site="mon-programme-tv.be" lang="fr" xmltv_id="VOOsportWorld3.be@SD" site_id="1574/programme-television-voo-sport-world-3">VOO Sport World 3</channel>
+  <channel site="mon-programme-tv.be" lang="fr" xmltv_id="VTM.be@SD" site_id="148/programme-television-vtm">VTM</channel>
+  <channel site="mon-programme-tv.be" lang="fr" xmltv_id="VTM2.be@SD" site_id="467/programme-television-vtm2">VTM2</channel>
+  <channel site="mon-programme-tv.be" lang="fr" xmltv_id="VTM3.be@SD" site_id="541/programme-television-vtm3">VTM3</channel>
+  <channel site="mon-programme-tv.be" lang="fr" xmltv_id="VTM4.be@SD" site_id="688/programme-television-vtm4">VTM4</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="AragonTVInternacional.es@SD" site_id="ARAGON">Aragón TV Int</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="AXN.es@SD" site_id="AXN">AXN</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="AXNMovies.es@SD" site_id="SET">AXN Movies</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="CanalExtremaduraSatelite.es@SD" site_id="EXTREM">Canal Extremadura Sat</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="CanalRed.es@SD" site_id="RED">Canal RED</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="CanalSurAndalucia.es@SD" site_id="ANTV">Canal Sur Andalucía</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="CazayPesca.es@SD" site_id="CAZPES">Caza y Pesca</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="ClanInternacional.es@SD" site_id="CLANTV">Clan TVE</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="DAZNF1.uk@Spain" site_id="MVF1">DAZN F1</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="ETB1On.es@HD" site_id="ETB3">etb1ON</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="ETB2On.es@HD" site_id="ETB">etb2ON</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="Gol.es@SD" site_id="GOL">GOL</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="AccionporMovistarPlusPlus.es@SD" site_id="CPACCI">M+ Acción</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="CineEspanolporMovistarPlusPlus.es@SD" site_id="DCESP">M+ Cine Español</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="ClasicosporMovistarPlusPlus.es@SD" site_id="MCLAS">M+ Clásicos</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="ComediaporMovistarPlusPlus.es@SD" site_id="CPCOME">M+ Comedia</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="DeportesporMovistarPlusPlus.es@SD" site_id="CPDEP">M+ Deportes</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="Deportes2porMovistarPlus.es@SD" site_id="ARTHUR">M+ Deportes 2</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="Deportes3porMovistarPlus.es@SD" site_id="USOP2">M+ Deportes 3</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="Deportes4porMovistarPlus.es@SD" site_id="USOP3">M+ Deportes 4</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="Deportes5porMovistarPlus.es@SD" site_id="USOP11">M+ Deportes 5</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="Deportes6porMovistarPlus.es@SD" site_id="MULTI8">M+ Deportes 6</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="Deportes7porMovistarPlus.es@SD" site_id="MULTI6">M+ Deportes 7</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="Deportes8porMovistarPlus.es@SD" site_id="MULTI9">M+ Deportes 8</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="DocumentalesporMovistarPlusPlus.es@SD" site_id="MDOC">M+ Documentales</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="DramaporMovistarPlusPlus.es@SD" site_id="CPCOLE">M+ Drama</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="CineporMovistarPlusPlus.es@SD" site_id="MV1">M+ Estrenos</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="GolfporMovistarPlusPlus.es@SD" site_id="GOLF+">M+ Golf</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="Golf2porMovistarPlusPlus.es@SD" site_id="GOLF2">M+ Golf 2</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="IndieporMovistarPlusPlus.es@SD" site_id="MINDI">M+ Indie</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="LaLigaTV4porMovistarPlusPlus.es@SD" site_id="MLIG3">M+ LALIGA 4</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="LigadeCampeones10porMovistarPlusPlus.es@SD" site_id="CHAP9">M+ Liga de Campeones 10</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="LigadeCampeones11porMovistarPlusPlus.es@SD" site_id="CHAP10">M+ Liga de Campeones 11</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="LigadeCampeones12porMovistarPlusPlus.es@SD" site_id="CHAP11">M+ Liga de Campeones 12</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="LigadeCampeones13porMovistarPlusPlus.es@SD" site_id="CHAP12">M+ Liga de Campeones 13</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="LigadeCampeones5porMovistarPlusPlus.es@SD" site_id="CHAP4">M+ Liga de Campeones 5</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="LigadeCampeones6porMovistarPlusPlus.es@SD" site_id="CHAP5">M+ Liga de Campeones 6</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="LigadeCampeones7porMovistarPlusPlus.es@SD" site_id="CHAP6">M+ Liga de Campeones 7</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="LigadeCampeones8porMovistarPlusPlus.es@SD" site_id="CHAP7">M+ Liga de Campeones 8</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="LigadeCampeones9porMovistarPlusPlus.es@SD" site_id="CHAP8">M+ Liga de Campeones 9</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="OriginalesporMovistarPlusPlus.es@SD" site_id="MORIG">M+ Originales</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="VamosporMovistarPlusPlus.es@SD" site_id="VAMOSD">M+ Vamos</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="EllasVamosporMovistarPlusPlus.es@SD" site_id="MELLAV">M+ Vamos 3</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="MovistarPlusPlus.es@SD" site_id="MPLUS">Movistar Plus</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="NegociosTV.es@SD" site_id="NEGOTV">Negocios TV</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="Squirrel.es@SD" site_id="SQUI">Squirrel</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="StarChannel.es@SD" site_id="FOXGE">STAR Channel</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="TelemadridINT.es@SD" site_id="TELMIN">Telemadrid Int.</channel>
+  <channel site="movistarplus.es" lang="es" xmltv_id="Veo7.es@SD" site_id="VEO7">Veo7</channel>
+  <channel site="plex.tv" lang="it" xmltv_id="BizzarroMovies.it@SD" site_id="6438e6602db15a520e46bb0a">Bizzarro Movies</channel>
+  <channel site="plex.tv" lang="de" xmltv_id="INFAST.nl@DE" site_id="6674c3c0a9c715b93ca6ca94">INFAST</channel>
+  <channel site="plex.tv" lang="pt" xmltv_id="MyTimeMovieNetwork.br@SD" site_id="644874236e1dc0bf5664a674">MyTime Movie Network</channel>
+  <channel site="plex.tv" lang="de" xmltv_id="Nachrichten360.de@HD" site_id="693cb30a58076a970420f593">Nachrichten 360</channel>
+  <channel site="plex.tv" lang="it" xmltv_id="StorieCriminali.es@IT" site_id="6720013129bcfe7b69d4fef9">Storie Criminali</channel>
+  <channel site="plex.tv" lang="pt" xmltv_id="ToonGogglesenEspanol.us@SD" site_id="675a401b67838c2b166105d8">Toon Goggles</channel>
+  <channel site="plex.tv" lang="it" xmltv_id="ViaggiSapori.es@IT" site_id="67200cfd727d52d7a0e0b493">Viaggi &amp; Sapori</channel>
+  <channel site="plex.tv" lang="en" xmltv_id="XITEAllOutDance.nl@SD" site_id="688d36ff324d7b6bc1161d83">XITE All Out Dance</channel>
+  <channel site="plex.tv" lang="en" xmltv_id="XITELekkerHollands.nl@SD" site_id="688d37d7324d7b6bc1161d85">XITE Lekker Hollands</channel>
+  <channel site="plex.tv" lang="en" xmltv_id="XITEUltimateThrowback.nl@SD" site_id="688d35f9324d7b6bc1161d81">XITE Ultimate Throwback</channel>
+  <channel site="plex.tv" lang="en" xmltv_id="XITEVanEigenBodem.nl@SD" site_id="69271d189a72be80552c059f">XITE Van Eigen Bodem</channel>
+  <channel site="siba.com.co" lang="es" xmltv_id="Cablenoticias.co@SD" site_id="391">CABLE NOTICIAS</channel>
+  <channel site="siba.com.co" lang="es" xmltv_id="Canal1.co@SD" site_id="401">CANAL 1</channel>
+  <channel site="siba.com.co" lang="es" xmltv_id="CanalCapital.co@SD" site_id="393">CANAL CAPITAL</channel>
+  <channel site="siba.com.co" lang="es" xmltv_id="CaracolTV.co@SD" site_id="394">CANAL CARACOL</channel>
+  <channel site="siba.com.co" lang="es" xmltv_id="CanalCongreso.co@SD" site_id="397">CANAL DEL CONGRESO</channel>
+  <channel site="siba.com.co" lang="es" xmltv_id="CanalInstitucional.co@SD" site_id="398">CANAL INSTITUCIONAL</channel>
+  <channel site="siba.com.co" lang="es" xmltv_id="CanalRCN.co@SD" site_id="399">CANAL RCN</channel>
+  <channel site="siba.com.co" lang="es" xmltv_id="ClaroCinema.mx@SD" site_id="985">CLARO CINEMA</channel>
+  <channel site="siba.com.co" lang="es" xmltv_id="ClaroMusicaTV.co@SD" site_id="566">CLARO MúSICA TV</channel>
+  <channel site="siba.com.co" lang="es" xmltv_id="ClaroSportsChile.cl@SD" site_id="602">CLARO SPORTS</channel>
+  <channel site="siba.com.co" lang="es" xmltv_id="Cosmovision.co@SD" site_id="417">COSMOVISION</channel>
+  <channel site="siba.com.co" lang="es" xmltv_id="Cristovision.co@SD" site_id="418">CRISTOVISION</channel>
+  <channel site="siba.com.co" lang="es" xmltv_id="ElTiempoTV.co@SD" site_id="497">EL TIEMPO TELEVISION</channel>
+  <channel site="siba.com.co" lang="es" xmltv_id="NTN24.co@SD" site_id="554">NTN 24</channel>
+  <channel site="siba.com.co" lang="es" xmltv_id="RCNNovelas.co@SD" site_id="859">RCN TELENOVELAS</channel>
+  <channel site="siba.com.co" lang="es" xmltv_id="RedPlus.co@SD" site_id="421">RED+</channel>
+  <channel site="siba.com.co" lang="es" xmltv_id="SenalColombia.co@SD" site_id="570">SENAL COLOMBIA</channel>
+  <channel site="siba.com.co" lang="es" xmltv_id="SinLimites.co@SD" site_id="526">SIN LíMITES</channel>
+  <channel site="siba.com.co" lang="es" xmltv_id="StarChannel.co@SD" site_id="505">STAR CHANNEL</channel>
+  <channel site="siba.com.co" lang="es" xmltv_id="TeleAmiga.co@SD" site_id="579">TELEAMIGA</channel>
+  <channel site="siba.com.co" lang="es" xmltv_id="Teleantioquia.co@SD" site_id="580">TELEANTIOQUIA</channel>
+  <channel site="siba.com.co" lang="es" xmltv_id="Telecafe.co@SD" site_id="581">TELECAFE</channel>
+  <channel site="siba.com.co" lang="es" xmltv_id="Telecaribe.co@SD" site_id="582">TELECARIBE</channel>
+  <channel site="siba.com.co" lang="es" xmltv_id="Teleislas.co@SD" site_id="922">TELEISLAS CHANNEL</channel>
+  <channel site="siba.com.co" lang="es" xmltv_id="Telepacifico.co@SD" site_id="585">TELEPACIFICO</channel>
+  <channel site="siba.com.co" lang="es" xmltv_id="Trece.co@SD" site_id="392">TRECE</channel>
+  <channel site="siba.com.co" lang="es" xmltv_id="CanalTRO.co@SD" site_id="591">TRO</channel>
+  <channel site="siba.com.co" lang="es" xmltv_id="TVAgro.co@SD" site_id="593">TV AGRO</channel>
+  <channel site="siba.com.co" lang="es" xmltv_id="TVFamilia.ve@SD" site_id="1055">TV FAMILIA</channel>
+  <channel site="siba.com.co" lang="es" xmltv_id="WinSports.co@SD" site_id="828">WIN SPORTS</channel>
+  <channel site="siba.com.co" lang="es" xmltv_id="Zoom.co@SD" site_id="611">ZOOM TV</channel>
+  <channel site="streamingtvguides.com" lang="en" xmltv_id="GMAPinoyTVUSACanada.ph@SD" site_id="GMAPNY">GMA Pinoy TV</channel>
+  <channel site="telenet.tv" lang="nl" xmltv_id="MaghrebTV.be@SD" site_id="almaghrebtv">Al Maghreb TV</channel>
+  <channel site="telenet.tv" lang="fr" xmltv_id="Be1Plus1hr.be@SD" site_id="be1p1h">Be 1+1h</channel>
+  <channel site="telenet.tv" lang="nl" xmltv_id="DobbitTV.be@NL" site_id="dobbittv">DOBBIT TV</channel>
+  <channel site="telenet.tv" lang="nl" xmltv_id="EclipsTV.be@SD" site_id="evenaar">Eclips TV</channel>
+  <channel site="telenet.tv" lang="nl" xmltv_id="KanaalZ.be@SD" site_id="kanaalz">KanaalZ</channel>
+  <channel site="telenet.tv" lang="nl" xmltv_id="PlattelandsTV.be@SD" site_id="plattelandstv">PlattelandsTv</channel>
+  <channel site="telenet.tv" lang="nl" xmltv_id="PlayMoreBlack.be@SD" site_id="channel6">Play More Black</channel>
+  <channel site="telenet.tv" lang="nl" xmltv_id="PlayMoreCinema.be@SD" site_id="primestarhd">Play More Cinema</channel>
+  <channel site="telenet.tv" lang="nl" xmltv_id="PlayMoreCrime.be@SD" site_id="playcrime">Play More Crime</channel>
+  <channel site="telenet.tv" lang="nl" xmltv_id="PlayMoreKicks.be@SD" site_id="primeaction">Play More Kicks</channel>
+  <channel site="telenet.tv" lang="nl" xmltv_id="PlaySportsGolf.be@SD" site_id="primegolf">Play Sports Golf</channel>
+  <channel site="telenet.tv" lang="nl" xmltv_id="PlaySports1.be@SD" site_id="primesporthd">Play Sports HD1</channel>
+  <channel site="telenet.tv" lang="nl" xmltv_id="PlaySports2.be@SD" site_id="sportinghd2">Play Sports HD2</channel>
+  <channel site="telenet.tv" lang="nl" xmltv_id="PlaySports3.be@SD" site_id="sporting3">Play Sports HD3</channel>
+  <channel site="telenet.tv" lang="nl" xmltv_id="PlaySports4.be@SD" site_id="sporting4">Play Sports HD4</channel>
+  <channel site="telenet.tv" lang="nl" xmltv_id="PlaySportsOpen.be@SD" site_id="rexrioinfo">Play Sports Open</channel>
+  <channel site="telenet.tv" lang="en" xmltv_id="PlaySports5PremierLeague.be@SD" site_id="sporting5">Play Sports Premier League</channel>
+  <channel site="telenet.tv" lang="nl" xmltv_id="Play6.be@SD" site_id="zes">Play6</channel>
+  <channel site="telenet.tv" lang="nl" xmltv_id="Play7.be@SD" site_id="zeven">Play7</channel>
+  <channel site="telenet.tv" lang="nl" xmltv_id="QMusic.be@SD" site_id="qmusic">Q-music</channel>
+  <channel site="telenet.tv" lang="fr" xmltv_id="RadioContact.be@SD" site_id="rcontactvision">R. Contact Vision</channel>
+  <channel site="telenet.tv" lang="nl" xmltv_id="VlaamsParlementTV.be@SD" site_id="actuatv">Vlaams Parlement TV</channel>
+  <channel site="telenet.tv" lang="fr" xmltv_id="VOOsportWorld4.be@SD" site_id="vsw4">VOO Sport World 4</channel>
+  <channel site="tv.lv" lang="ru" xmltv_id="TV3Plus.lv@SD" site_id="3">3+</channel>
+  <channel site="tv.lv" lang="lv" xmltv_id="360TV.lv@SD" site_id="360">360</channel>
+  <channel site="tv.lv" lang="lv" xmltv_id="8TV.lv@SD" site_id="8tv">8TV</channel>
+  <channel site="tv.lv" lang="lv" xmltv_id="ArenaHDBaltic.lt@SD" site_id="arena-hd-baltic">Arena HD Baltic</channel>
+  <channel site="tv.lv" lang="lv" xmltv_id="Go3Sport4.ee@SD" site_id="go3-sport-4">GO3 Sport 4</channel>
+  <channel site="tv.lv" lang="lv" xmltv_id="LTV1.lv@SD" site_id="ltv1">LTV1</channel>
+  <channel site="tv.lv" lang="lv" xmltv_id="LTV7.lv@SD" site_id="ltv7">LTV7</channel>
+  <channel site="tv.lv" lang="lv" xmltv_id="ReTV.lv@SD" site_id="retv">ReTV</channel>
+  <channel site="tv.lv" lang="lv" xmltv_id="TV3.lv@SD" site_id="tv3-1">TV3</channel>
+  <channel site="tv.lv" lang="lv" xmltv_id="TV3Life.lv@SD" site_id="tv3-life">TV3 Life</channel>
+  <channel site="tv.lv" lang="lv" xmltv_id="TV3Mini.lv@SD" site_id="tv3-mini">TV3 Mini</channel>
+  <channel site="tv.lv" lang="lv" xmltv_id="TV6.lv@SD" site_id="tv6-1">TV6</channel>
+  <channel site="tv.nu" lang="en" xmltv_id="BBCNordic.uk@SD" site_id="bbc-nordic">BBC Nordic</channel>
+  <channel site="tv.nu" lang="en" xmltv_id="CuriosityChannel.us@SD" site_id="curiositystream">CuriosityStream</channel>
+  <channel site="tv.nu" lang="sv" xmltv_id="DiscoveryPlusExtra1.se@SD" site_id="discovery-extra-1">Discovery+ Extra 1</channel>
+  <channel site="tv.nu" lang="sv" xmltv_id="DiscoveryPlusExtra2.se@SD" site_id="discovery-extra-2">Discovery+ Extra 2</channel>
+  <channel site="tv.nu" lang="sv" xmltv_id="DiscoveryPlusExtra3.se@SD" site_id="discovery-extra-3">Discovery+ Extra 3</channel>
+  <channel site="tv.nu" lang="sv" xmltv_id="DiscoveryPlusExtra4.se@SD" site_id="discovery-extra-4">Discovery+ Extra 4</channel>
+  <channel site="tv.nu" lang="sv" xmltv_id="DiscoveryPlusExtra5.se@SD" site_id="discovery-extra-5">Discovery+ Extra 5</channel>
+  <channel site="tv.nu" lang="sv" xmltv_id="DiscoveryPlusExtra6.se@SD" site_id="discovery-extra-6">Discovery+ Extra 6</channel>
+  <channel site="tv.nu" lang="sv" xmltv_id="DiscoveryPlusExtra7.se@SD" site_id="discovery-extra-7">Discovery+ Extra 7</channel>
+  <channel site="tv.nu" lang="sv" xmltv_id="DiscoveryPlusExtra8.se@SD" site_id="discovery-extra-8">Discovery+ Extra 8</channel>
+  <channel site="tv.nu" lang="da" xmltv_id="dk4.dk@SD" site_id="dk4">DK4</channel>
+  <channel site="tv.nu" lang="en" xmltv_id="HighTV3D.us@SD" site_id="high-tv-3d">High TV 3D</channel>
+  <channel site="tv.nu" lang="da" xmltv_id="Kanal5.dk@SD" site_id="kanal-5-danmark">Kanal 5 Danmark</channel>
+  <channel site="tv.nu" lang="sv" xmltv_id="NickelodeonScandinavia.nl@SD" site_id="nickelodeon">Nickelodeon</channel>
+  <channel site="tv.nu" lang="en" xmltv_id="PenthouseHD2.us@SD" site_id="penthouse-hd-2">Penthouse HD 2</channel>
+  <channel site="tv.nu" lang="no" xmltv_id="TV3.no@SD" site_id="tv3-norge">TV3 Norge</channel>
+  <channel site="tv.nu" lang="no" xmltv_id="TV3Plus.no@SD" site_id="tv3-30147">TV3+</channel>
+  <channel site="tv.nu" lang="sv" xmltv_id="TV4Fotboll.se@SD" site_id="tv4-fotboll">TV4 Fotboll</channel>
+  <channel site="tv.nu" lang="sv" xmltv_id="TV4Hits.se@SD" site_id="tv4-hits">TV4 Hits</channel>
+  <channel site="tv.nu" lang="sv" xmltv_id="TV4Hockey.se@SD" site_id="tv4-hockey">TV4 Hockey</channel>
+  <channel site="tv.nu" lang="sv" xmltv_id="TV4Motor.se@SD" site_id="tv4-motor">TV4 Motor</channel>
+  <channel site="tv.nu" lang="sv" xmltv_id="TV4SportLive1.se@SD" site_id="tv4-sport-live-1">TV4 Sport Live 1</channel>
+  <channel site="tv.nu" lang="sv" xmltv_id="TV4SportLive2.se@SD" site_id="tv4-sport-live-2">TV4 Sport Live 2</channel>
+  <channel site="tv.nu" lang="sv" xmltv_id="TV4SportLive3.se@SD" site_id="tv4-sport-live-3">TV4 Sport Live 3</channel>
+  <channel site="tv.nu" lang="sv" xmltv_id="TV4SportLive4.se@SD" site_id="tv4-sport-live-4">TV4 Sport Live 4</channel>
+  <channel site="tv.nu" lang="sv" xmltv_id="TV4Sportkanalen.se@SD" site_id="tv4-sportkanalen">TV4 Sportkanalen</channel>
+  <channel site="tv.nu" lang="sv" xmltv_id="TV4Stars.se@SD" site_id="tv4-stars">TV4 Stars</channel>
+  <channel site="tv.nu" lang="sv" xmltv_id="TV4Tennis.se@SD" site_id="tv4-tennis">TV4 Tennis</channel>
+  <channel site="tv.nu" lang="sv" xmltv_id="VSport1.se@Sweden" site_id="v-sport-1">V Sport 1</channel>
+  <channel site="tv.nu" lang="sv" xmltv_id="VSportLive1.se@SD" site_id="v-sport-live-1">V Sport Live 1</channel>
+  <channel site="tv.nu" lang="sv" xmltv_id="VSportLive2.se@SD" site_id="v-sport-live-2">V Sport Live 2</channel>
+  <channel site="tv.nu" lang="sv" xmltv_id="VSportLive3.se@SD" site_id="v-sport-live-3">V Sport Live 3</channel>
+  <channel site="tv.nu" lang="sv" xmltv_id="VSportLive4.se@SD" site_id="v-sport-live-4">V Sport Live 4</channel>
+  <channel site="tv.nu" lang="sv" xmltv_id="VSportLive5.se@SD" site_id="v-sport-live-5">V Sport Live 5</channel>
+  <channel site="tv.nu" lang="sv" xmltv_id="TVVisionSverige.se@SD" site_id="vision-sverige">Vision Sverige</channel>
+  <channel site="vantagetv.ee" lang="en" xmltv_id="VantageClassic.ee@HD" site_id="vclassic">Vantage Classic</channel>
+  <channel site="vantagetv.ee" lang="en" xmltv_id="VantageDance.ee@HD" site_id="vdance">Vantage Dance</channel>
+  <channel site="vantagetv.ee" lang="en" xmltv_id="VantageMusic.ee@HD" site_id="vmusic">Vantage Music</channel>
+  <channel site="vantagetv.ee" lang="en" xmltv_id="VantageRock.ee@HD" site_id="vrock">Vantage Rock</channel>
+  <channel site="vrt.be" lang="nl" xmltv_id="Klara.be" site_id="klara">Klara</channel>
+  <channel site="vrt.be" lang="nl" xmltv_id="MNM.be" site_id="mnm">MNM</channel>
+  <channel site="vrt.be" lang="nl" xmltv_id="Radio1.be" site_id="radio1">Radio 1</channel>
+  <channel site="vrt.be" lang="nl" xmltv_id="Radio2.be" site_id="radio2">Radio 2</channel>
+  <channel site="vrt.be" lang="nl" xmltv_id="StuBru.be" site_id="studio-brussel">Studio Brussel</channel>
+  <channel site="vrt.be" lang="nl" xmltv_id="VRT1.be" site_id="vrt1">VRT 1</channel>
+  <channel site="vrt.be" lang="nl" xmltv_id="VRTCanvas.be" site_id="vrt-canvas">VRT CANVAS</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="Anibox.kr@SD" site_id="C4401">ANIBOX</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="Animax.kr@SD" site_id="A01">ANIMAX</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="Anione.kr@SD" site_id="C4402">ANIONE</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="AsiaM.kr@SD" site_id="C5102">AsiaM</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="AsiaN.kr@SD" site_id="C5101">AsiaN</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="BTNTV.kr@SD" site_id="F0501">BTN</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="CTSTV.kr@SD" site_id="F0601">CTS기독교TV</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="EBS1TV.kr@SD" site_id="E01">EBS 1</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="EBS2TV.kr@SD" site_id="E07">EBS 2</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="EBSKids.kr@SD" site_id="E05">EBS 키즈</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="EdgeTV.kr@SD" site_id="X01">EDGETV</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="FunTV.kr@SD" site_id="X02">FUNTV</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="GSMyShop.kr@SD" site_id="C4202">GS MY SHOP</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="GSShop.kr@SD" site_id="C4201">GS SHOP</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="History.kr@SD" site_id="C5901">HISTORY</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="KShopping.kr@SD" site_id="F1401">K SHOPPING</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="KBS1TV.kr@SD" site_id="K01">KBS 1TV</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="KBS2TV.kr@SD" site_id="K02">KBS 2TV</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="KBSDrama.kr@SD" site_id="K06">KBS DRAMA</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="KBSJoy.kr@SD" site_id="K04">KBS JOY</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="KBSLife.kr@SD" site_id="K05">KBS Life</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="KBSStory.kr@SD" site_id="K09">KBS Story</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="MBCTV.kr@SD" site_id="M01">MBC</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="MBCDrama.kr@SD" site_id="M02">MBC Drama</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="MBCEvery1.kr@SD" site_id="M03">MBC Every1</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="MBCM.kr@SD" site_id="M06">MBC M</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="MBCOn.kr@SD" site_id="M14">MBC ON</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="MBN.kr@SD" site_id="C2401">MBN</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="MBNPlus.kr@SD" site_id="C2402">MBN 플러스</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="NSShopPlus.kr@SD" site_id="C8302">NS SHOP+</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="NSHomeShopping.kr@SD" site_id="C8301">NS홈쇼핑</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="SBSBiz.kr@SD" site_id="S06">SBS Biz</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="SBSFL.kr@SD" site_id="S22">SBS Fil</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="SBSfunE.kr@SD" site_id="S04">SBS funE</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="SBSGolf.kr@SD" site_id="S05">SBS Golf</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="SBSM.kr@SD" site_id="S09">SBS MTV</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="Nickelodeon.kr@SD" site_id="S10">SBS Nick</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="SBSPlus.kr@SD" site_id="S03">SBS Plus</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="SKStoa.kr@SD" site_id="F2701">SK스토아</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="SmileTVPlus.kr@SD" site_id="F5602">SmileTV Plus</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="TheMovie.kr@SD" site_id="F2501">THE MOVIE</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="TVChosun.kr@SD" site_id="C2601">TV CHOSUN</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="TVChosun2.kr@SD" site_id="C2602">TV CHOSUN2</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="TVasiaPlus.kr@SD" site_id="F5601">TVasia Plus</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="YTN.kr@SD" site_id="C2101">YTN</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="CPBCTV.kr@SD" site_id="F0701">가톨릭평화방송</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="NationalAssemblyTV.kr@SD" site_id="F3301">국회방송</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="EChannel.kr@SD" site_id="C5702">노는채널 E채널</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="DaekyoKidsTV.kr@SD" site_id="F1301">대교어린이TV</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="DongaTV.kr@SD" site_id="C7301">동아TV</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="LotteHomeShopping.kr@SD" site_id="C5601">롯데홈쇼핑</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="LotteOneTV.kr@SD" site_id="C5602">롯데홈쇼핑 ONETV</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="MaeilBusinessTV.kr@SD" site_id="F2001">매일경제TV</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="MTN.kr@SD" site_id="F4301">머니투데이방송</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="BravoKids.kr@SD" site_id="C6802">브라보키즈</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="Vlending.kr@SD" site_id="C7801">블렌딩 뮤직비디오</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="ShoppingNT.kr@SD" site_id="C4901">쇼핑엔티</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="ShinsegaeTVShopping.kr@SD" site_id="C4801">신세계TV쇼핑</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="Aniplus.kr@SD" site_id="C6102">애니플러스</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="YonhapNewsTV.kr@SD" site_id="Y01">연합뉴스TV</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="IndieFilm.kr@SD" site_id="F2601">인디필름</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="ChannelA.kr@SD" site_id="C2501">채널A</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="ChannelAPlus.kr@SD" site_id="C2502">채널A 플러스</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="ChannelJ.kr@SD" site_id="C5501">채널J</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="ChW.kr@SD" site_id="C3901">채널W</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="ChannelChina.kr@SD" site_id="C8401">채널차이나</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="Telenovela.kr@SD" site_id="C8701">텔레노벨라</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="PolarisTV.kr@SD" site_id="C6901">폴라리스TV</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="KoreaEconomyTV.kr@SD" site_id="F2101">한국경제TV</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="HyundaiHomeShopping.kr@SD" site_id="C4101">현대홈쇼핑</channel>
+  <channel site="wavve.com" lang="ko" xmltv_id="HyundaiHomeShoppingPlusShop.kr@SD" site_id="C4102">현대홈쇼핑+샵</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="13thStreetUniversal.de@SD" site_id="255">13TH STREET</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="3sat.de@SD" site_id="392">3sat</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="AlexBerlin.de@SD" site_id="649">ALEX Berlin</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="AllgauTV.de@SD" site_id="448">allgäu.tv</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="AltenburgTV.de@SD" site_id="3660">altenburg.tv</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="AnimalPlanet.de@SD" site_id="105">Animal Planet</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="AnixeHDSerie.de@SD" site_id="4777">ANIXE HD Serie</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="AnixePlus.de@SD" site_id="452">ANIXE+</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="ARDalpha.de@SD" site_id="479">ARD-alpha</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="arte.de@SD" site_id="394">ARTE</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="automotorundsportchannel.de@SD" site_id="108">auto motor und sport</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="AXNBlack.de@SD" site_id="110">AXN Black</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="BadenTV.de@SD" site_id="3685">Baden TV</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="BadenTVSud.de@SD" site_id="3749">Baden TV Süd</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="BeateUhseTV.de@SD" site_id="107">Beate-Uhse.TV (Sky)</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="Bergblick.de@SD" site_id="45">Bergblick</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="BibelTV.de@SD" site_id="485">Bibel TV</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="BonGusto.de@SD" site_id="117">BonGusto</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="Channel21.de@SD" site_id="5176">CHANNEL21</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SachsenFernsehenChemnitz.de@SD" site_id="2612">Chemnitz Fernsehen</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="ComedyCentral.de@SD" site_id="50">Comedy Central</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="CrimePlusInvestigation.de@SD" site_id="106">Crime+Investigation</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="CuriosityChannel.de@SD" site_id="186">Curiosity Channel</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="DasErste.de@SD" site_id="373">Das Erste</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="DeluxeMusic.de@SD" site_id="25">DELUXE MUSIC</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="ServusTV.at@SD" site_id="39">DF1</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="DiscoveryChannel.de@SD" site_id="23">Discovery Channel</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="DisneyChannel.de@SD" site_id="27">Disney Channel</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="DMAX.de@SD" site_id="429">DMAX</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="DMF.de@SD" site_id="5312">DMF</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SachsenFernsehenDresden.de@SD" site_id="2611">Dresden Fernsehen</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="emsTVLingen.de@SD" site_id="4380">ems TV</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="eSports1.de@SD" site_id="191">eSportsONE</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="FrankenFernsehen.de@SD" site_id="238">Franken Fernsehen</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="FriesischerRundfunkFriedeburg.de@SD" site_id="4513">Friesischer Rundfunk</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="GEOTelevision.de@SD" site_id="153">GEO Television</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="Hamburg1.de@SD" site_id="244">Hamburg 1</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="Heimatkanal.de@SD" site_id="661">Heimatkanal</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="hrfernsehen.de@SD" site_id="386">hr-fernsehen</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="HSE.de@SD" site_id="451">HSE</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="Jukebox.de@SD" site_id="218">Jukebox</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="KTV.at@SD" site_id="487">K-TV</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="kabeleins.de@SD" site_id="405">Kabel Eins</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="kabeleinsClassics.de@SD" site_id="157">Kabel Eins CLASSICS</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="kabeleinsDoku.de@SD" site_id="573">Kabel Eins Doku</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="KiKA.de@SD" site_id="387">KiKA</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="NashKinomir.de@SD" site_id="472">Kinomir</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="KinoweltTV.de@SD" site_id="137">KinoweltTV</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="LTV.de@SD" site_id="578">L-TV</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="Lausitzwelle.de@SD" site_id="4727">LAUSITZWELLE</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SachsenFernsehenLeipzig.de@SD" site_id="3179">Leipzig Fernsehen</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="LustPur.de@SD" site_id="32">Lust pur</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="MagentaSport.de@SD" site_id="5075">MagentaSport</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="MarcoPoloTV.de@SD" site_id="5295">Marco Polo TV</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="MDF1.de@SD" site_id="4888">MDF.1 Fernsehen</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="MoreThanSportsTV.de@SD" site_id="5078">More Than Sports TV</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="Motorvision.de@SD" site_id="604">Motorvision+</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="MTV.de@SD" site_id="28">MTV</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="MunchenTV.de@SD" site_id="241">münchen.tv</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="N24Doku.de@SD" site_id="553">N24 Doku</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="NationalGeographic.de@SD" site_id="35">National Geographic</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="NationalGeographicWild.de@SD" site_id="569">National Geographic Wild</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="NickJr.de@SD" site_id="221">Nick Jr.</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="Nicktoons.de@SD" site_id="4405">Nicktoons (Sky)</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="NiederbayernTVDeggendorfStraubing.de@SD" site_id="177">NIEDERBAYERN TV Deggendorf - Straubing</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="NiederbayernTVLandshut.de@SD" site_id="174">NIEDERBAYERN TV Landshut</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="NiederbayernTVPassau.de@SD" site_id="154">NIEDERBAYERN TV Passau</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="Nitro.de@SD" site_id="395">NITRO</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="NRWision.de@SD" site_id="3750">NRWision</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="ntv.de@SD" site_id="376">ntv</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="OberpfalzTV.de@SD" site_id="141">Oberpfalz TV</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="OFTVOffenbach.de@SD" site_id="546">OF-TV</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="OKWeinstrasseNeustadt.de@SD" site_id="3042">OK Weinstraße</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="OK4.de@SD" site_id="3045">OK4</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="OK54.de@SD" site_id="663">OK54 Trier</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="OKTVMainz.de@SD" site_id="3044">OK:TV Mainz</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="One.de@SD" site_id="402">ONE</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="OstWest.de@SD" site_id="476">OstWest</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="PenthousePassion.us@SD" site_id="228">Penthouse Passion</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="phoenix.de@HD" site_id="371">phoenix</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="ProSieben.de@SD" site_id="374">ProSieben</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="ProSiebenFun.de@SD" site_id="259">ProSieben FUN</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="ProSiebenMaxx.de@SD" site_id="396">ProSieben MAXX</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="QVC.de@SD" site_id="446">QVC</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="RadioBremenFernsehen.de@SD" site_id="368">Radio Bremen TV</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="RedBullTV.at@SD" site_id="5027">Red Bull TV</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="RennsteigTV.de@SD" site_id="2609">Rennsteig.TV</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="RFH.de@SD" site_id="4723">RFH Regionalfernsehen Harz</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="RFO.de@SD" site_id="143">RFO</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="RNF.de@SD" site_id="246">RNF</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="RomanceTV.de@SD" site_id="260">Romance TV</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="RTL.de@SD" site_id="404">RTL</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="RTLNordNiedersachsenBremen.de@SD" site_id="100">RTL Bremen &amp; Niedersachsen</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="RTLCrime.de@SD" site_id="216">RTL Crime</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="RTLNordHamburgSchleswigHolstein.de@SD" site_id="102">RTL Hamburg &amp; Schleswig-Holstein</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="RTLHessen.de@SD" site_id="101">RTL Hessen</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="RTLLiving.de@SD" site_id="227">RTL Living</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="RTLWest.de@SD" site_id="478">RTL Nordrhein-Westfalen</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="RTLPassion.de@SD" site_id="209">RTL Passion</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="RTLup.de@SD" site_id="542">RTLup</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="RTLZwei.de@SD" site_id="382">RTLZWEI</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SalveTV.de@SD" site_id="3073">salve.tv</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SAT1.de@SD" site_id="381">SAT.1</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="1730SAT1Bayern.de@SD" site_id="146">SAT.1 Bayern</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SAT1emotions.de@SD" site_id="224">SAT.1 emotions</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SAT1Gold.de@SD" site_id="338">SAT.1 GOLD</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="1730SAT1REGIONALHamburgSchleswigHolstein.de@SD" site_id="142">SAT.1 Hamburg und Schleswig-Holstein</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="1730SAT1REGIONALLowerSaxonyBremen.de@SD" site_id="144">SAT.1 Niedersachsen und Bremen</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SAT1NRW.de@SD" site_id="251">SAT.1 Nordrhein-Westfalen</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="1730SAT1LIVE.de@SD" site_id="145">SAT.1 Rheinland-Pfalz und Hessen</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="sixx.de@SD" site_id="380">sixx</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkyAtlantic.de@SD" site_id="264">Sky Atlantic</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkyCinemaAction.de@SD" site_id="40">Sky Cinema Action</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkyCinemaClassics.de@SD" site_id="200">Sky Cinema Classics</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkyCinemaFamily.de@SD" site_id="572">Sky Cinema Family</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkyCinemaPremieren.de@SD" site_id="195">Sky Cinema Premiere</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkyCrime.de@SD" site_id="4924">Sky Crime</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkyDocumentaries.de@SD" site_id="5143">Sky Documentaries</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkyKrimi.de@SD" site_id="201">Sky Krimi</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkyNature.de@SD" site_id="5142">Sky Nature</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkyOne.de@SD" site_id="576">Sky One</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SYFY.de@SD" site_id="133">Sky Sci-Fi</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySport3.de@SD" site_id="192">Sky Sport 1</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySport4.de@SD" site_id="212">Sky Sport 2</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySport5.de@SD" site_id="189">Sky Sport 3</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySport6.de@SD" site_id="111">Sky Sport 4</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySport7.de@SD" site_id="114">Sky Sport 5</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySport8.de@SD" site_id="113">Sky Sport 6</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySport9.de@SD" site_id="127">Sky Sport 7</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySport10.de@SD" site_id="261">Sky Sport 8</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySport11.de@SD" site_id="187">Sky Sport 9</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportBundesliga1.de@SD" site_id="42">Sky Sport Bundesliga</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportBundesliga2.de@SD" site_id="206">Sky Sport Bundesliga 1</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportBundesliga3.de@SD" site_id="211">Sky Sport Bundesliga 2</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportBundesliga4.de@SD" site_id="199">Sky Sport Bundesliga 3</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportBundesliga5.de@SD" site_id="232">Sky Sport Bundesliga 4</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportBundesliga6.de@SD" site_id="234">Sky Sport Bundesliga 5</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportBundesliga7.de@SD" site_id="231">Sky Sport Bundesliga 6</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportBundesliga8.de@SD" site_id="258">Sky Sport Bundesliga 7</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportBundesliga9.de@SD" site_id="219">Sky Sport Bundesliga 8</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportBundesliga10.de@SD" site_id="237">Sky Sport Bundesliga 9</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportF1.de@SD" site_id="4889">Sky Sport F1</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySportNews.de@SD" site_id="190">Sky Sport News</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySport2.de@SD" site_id="198">Sky Sport Tennis</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SkySport1.de@SD" site_id="31">Sky Sport Top Event</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SonnenklarTV.de@SD" site_id="486">sonnenklar.TV</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SpiegelGeschichte.de@SD" site_id="4406">Spiegel Geschichte</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="Sport1.de@SD" site_id="401">SPORT1</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SportdigitalFUSSBALL.de@SD" site_id="194">SPORTDIGITAL FUSSBALL</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="Sport1Plus.de@SD" site_id="44">Sportdigital1+</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SRFernsehen.de@SD" site_id="379">SR Fernsehen</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="Studio47.de@SD" site_id="2616">Studio 47</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="RTLSuper.de@SD" site_id="403">Super RTL</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SWRFernsehenBadenWurttemberg.de@SD" site_id="398">SWR Fernsehen BW</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="SWRFernsehenRheinlandPfalz.de@SD" site_id="393">SWR Fernsehen RP</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="tagesschau24.de@SD" site_id="400">tagesschau24</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="TELE5.de@SD" site_id="48">TELE 5</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="TelebomTeledom.de@SD" site_id="483">TeleBom/TeleDom</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="History.de@SD" site_id="162">The HISTORY Channel</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="TLC.de@SD" site_id="383">TLC</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="TOGGOplus.de@SD" site_id="601">TOGGO plus</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="TVMainfranken.de@SD" site_id="156">TV Mainfranken</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="TVMittelrhein.de@SD" site_id="581">TV Mittelrhein</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="TVOberfranken.de@SD" site_id="170">TV Oberfranken</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="TVWestsachsen.de@SD" site_id="2610">TV Westsachsen</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="TVBerlin.de@SD" site_id="599">tv.berlin</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="TVIngolstadt.de@SD" site_id="173">tv.ingolstadt</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="TVA.de@SD" site_id="171">TVA Ostbayern</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="UniversalTV.de@SD" site_id="185">Universal TV</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="VOX.de@SD" site_id="385">VOX</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="Voxup.de@SD" site_id="3930">VOXup</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="WarnerTVComedy.de@SD" site_id="181">Warner TV Comedy</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="WarnerTVFilm.de@SD" site_id="184">Warner TV Film</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="WarnerTVSerie.de@SD" site_id="53">Warner TV Serie</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="WELT.de@SD" site_id="375">WELT</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="WeltderWunderTV.de@SD" site_id="60">Welt der Wunder</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="WettercomTV.de@SD" site_id="571">wetter.com TV</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="ZDF.de@SD" site_id="408">ZDF</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="ZDFinfo.de@SD" site_id="378">ZDFinfo</channel>
+  <channel site="web.magentatv.de" lang="de" xmltv_id="ZDFneo.de@SD" site_id="391">ZDFneo</channel>
+  <channel site="worldfishingnetwork.com" lang="en" xmltv_id="WorldFishingNetwork.us@SD" site_id="#">World Fishing Network</channel>
+</channels>

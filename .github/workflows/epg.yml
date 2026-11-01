@@ -1,10 +1,13 @@
 name: EPG
 
-# Erzeugt zweimal täglich den Programmführer für NOVA+ und veröffentlicht ihn über GitHub Pages:
-#   https://<dein-name>.github.io/nova-epg/guide.xml.gz
+# Lädt zweimal täglich den Programmführer für alle Sender aus channels/ (8 Teile parallel)
+# und veröffentlicht ihn über GitHub Pages:
+#   https://pytcn.github.io/nova-epg/guides/dach.xml.gz   (Deutschland, Österreich, Schweiz – für NOVA+ empfohlen)
+#   https://pytcn.github.io/nova-epg/guides/<land>.xml.gz  (ein Land, z. B. de, at, ch, uk, fr)
+#   https://pytcn.github.io/nova-epg/guide.xml.gz          (alle Sender – groß)
 on:
   schedule:
-    - cron: "23 2,14 * * *"   # 03:23 und 15:23 Uhr (Winterzeit)
+    - cron: "23 2,14 * * *"
   workflow_dispatch:
 
 permissions:
@@ -19,48 +22,58 @@ concurrency:
 jobs:
   grab:
     runs-on: ubuntu-latest
-    timeout-minutes: 300
+    timeout-minutes: 340
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [1, 2, 3, 4, 5, 6, 7, 8]
     steps:
       - uses: actions/checkout@v4
-
-      - name: iptv-org/epg holen
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           repository: iptv-org/epg
           ref: master
           path: epg
-
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-
-      - name: Abhängigkeiten installieren
+          cache: npm
+          cache-dependency-path: epg/package-lock.json
+      - name: Abhängigkeiten
         working-directory: epg
-        run: npm install
-
-      - name: Programmdaten laden
+        run: npm ci || npm install
+      - name: Programmdaten laden (Teil ${{ matrix.shard }})
         working-directory: epg
-        run: |
-          mkdir -p ../public
-          npm run grab --- --channels=../channels.xml --output=../public/guide.xml --days=2 --maxConnections=5 --gzip
-
-      - name: Ergebnis
-        run: |
-          ls -la public
-          echo "Sender im Guide: $(grep -c '<channel ' public/guide.xml || true)"
-          echo "Sendungen im Guide: $(grep -c '<programme ' public/guide.xml || true)"
-          date -u > public/updated.txt
-
-      - uses: actions/upload-pages-artifact@v3
+        # Ein Teil, der nicht fertig wird oder fehlschlägt, stoppt die anderen nicht.
+        continue-on-error: true
+        timeout-minutes: 320
+        run: mkdir -p ../out && npm run grab --- --channels=../channels/shard${{ matrix.shard }}.xml --output=../out/shard${{ matrix.shard }}.xml --days=2 --maxConnections=5
+      - uses: actions/upload-artifact@v4
         with:
-          path: public
+          name: shard${{ matrix.shard }}
+          path: out/
+          if-no-files-found: ignore
+          retention-days: 1
 
-  deploy:
+  publish:
     needs: grab
+    if: always()
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          path: parts
+      - name: Zusammenführen und nach Ländern aufteilen
+        run: |
+          python3 scripts/merge.py parts public
+          date -u > public/updated.txt
+          ls -la public public/guides | head -40
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
       - id: deployment
         uses: actions/deploy-pages@v4
