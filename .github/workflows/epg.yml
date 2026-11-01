@@ -1,0 +1,66 @@
+name: EPG
+
+# Erzeugt zweimal täglich den Programmführer für NOVA+ und veröffentlicht ihn über GitHub Pages:
+#   https://<dein-name>.github.io/nova-epg/guide.xml.gz
+on:
+  schedule:
+    - cron: "23 2,14 * * *"   # 03:23 und 15:23 Uhr (Winterzeit)
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  grab:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: iptv-org/epg holen
+        uses: actions/checkout@v4
+        with:
+          repository: iptv-org/epg
+          ref: master
+          path: epg
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Abhängigkeiten installieren
+        working-directory: epg
+        run: npm install
+
+      - name: Programmdaten laden
+        working-directory: epg
+        run: |
+          mkdir -p ../public
+          npm run grab --- --channels=../channels.xml --output=../public/guide.xml --days=2 --maxConnections=5 --gzip
+
+      - name: Ergebnis
+        run: |
+          ls -la public
+          echo "Sender im Guide: $(grep -c '<channel ' public/guide.xml || true)"
+          echo "Sendungen im Guide: $(grep -c '<programme ' public/guide.xml || true)"
+          date -u > public/updated.txt
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    needs: grab
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
