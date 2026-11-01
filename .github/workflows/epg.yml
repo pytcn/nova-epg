@@ -1,6 +1,6 @@
 name: EPG
 
-# Lädt zweimal täglich den Programmführer für alle Sender aus channels/ (8 Teile parallel)
+# Lädt zweimal täglich den Programmführer für alle Sender aus channels/ (8 Teile parallel), ergänzt externe Guides
 # und veröffentlicht ihn über GitHub Pages:
 #   https://pytcn.github.io/nova-epg/guides/dach.xml.gz   (Deutschland, Österreich, Schweiz – für NOVA+ empfohlen)
 #   https://pytcn.github.io/nova-epg/guides/<land>.xml.gz  (ein Land, z. B. de, at, ch, uk, fr)
@@ -67,9 +67,14 @@ jobs:
       - uses: actions/download-artifact@v4
         with:
           path: parts
+      - name: Externe Guides laden
+        # Fertige XMLTV-Dateien Dritter; sie ergänzen nur Sender, die noch fehlen. Ausfall = kein Problem.
+        run: |
+          mkdir -p external
+          curl -fsSL --max-time 300 -o external/epg.lat-de.xml.gz https://epg.lat/files/de.xml.gz || echo "epg.lat nicht erreichbar"
       - name: Zusammenführen und nach Ländern aufteilen
         run: |
-          python3 scripts/merge.py parts public
+          python3 scripts/merge.py parts public external/*.xml.gz
           date -u > public/updated.txt
           ls -la public public/guides | head -40
       - uses: actions/upload-pages-artifact@v3
