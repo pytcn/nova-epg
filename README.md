@@ -16,13 +16,6 @@ Zusätzlich vollständig: sky.com (DE/UK/IT), dazn.com und www.magenta.tv; ergä
   - `https://pytcn.github.io/nova-epg/guide.xml.gz` – alle Sender (groß; für einen Fire TV Stick nicht empfohlen)
   - `stats.tsv` zeigt Sender, Sendungen und Größe jeder Datei.
 
-## Einrichtung (einmalig)
-
-1. Dieses Repository **öffentlich** auf GitHub anlegen und alle Dateien hochladen (auch den Ordner `.github`).
-2. **Settings → Pages → Build and deployment → Source: GitHub Actions**.
-3. **Actions** → ggf. „I understand my workflows, go ahead and enable them“ → **EPG** → **Run workflow**.
-4. Nach dem ersten Lauf (je nach Quellen 20–90 Min.) ist die Adresse oben erreichbar; `updated.txt` zeigt den Zeitpunkt.
-
 ## Hinweise
 
 - Die Programmdaten werden von Webseiten Dritter abgerufen. Für deren Nutzung gelten die jeweiligen
