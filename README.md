@@ -11,7 +11,10 @@ Zusätzlich vollständig: sky.com (DE/UK/IT), dazn.com und www.magenta.tv; ergä
   (DACH: deutschsprachige Anbieter bevorzugt, sonst Anbieter aus dem Land des Senders).
 - Aktualisierung: GitHub Actions, zweimal täglich, 2 Tage im Voraus, 8 Teile parallel; `scripts/merge.py` führt sie zusammen.
 - Adressen (Einstellungen → Programmführer):
-  - `https://pytcn.github.io/nova-epg/guides/dach.xml.gz` – Deutschland, Österreich, Schweiz (**empfohlen**)
+  - `https://pytcn.github.io/nova-epg/guides/dach.xml.gz` – Deutschland, Österreich, Schweiz (**empfohlen**):
+    kuratiert mit `scripts/dach.py` – eigener Grab + epgshare01 (DE/AT/CH, u. a. Pay-TV), Dubletten (HD/SD,
+    Länderkopien, umbenannte Sender) über das Programm zusammengeführt, nur Sender mit Programm.
+    Senderliste mit Quelle und Tagen im Voraus: `guides/dach.tsv`
   - `https://pytcn.github.io/nova-epg/guides/<land>.xml.gz` – ein Land (`de`, `at`, `uk`, `fr`, …), als weitere Adresse
   - `https://pytcn.github.io/nova-epg/guide.xml.gz` – alle Sender (groß; für einen Fire TV Stick nicht empfohlen)
   - `stats.tsv` zeigt Sender, Sendungen und Größe jeder Datei.

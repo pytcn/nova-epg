@@ -72,9 +72,18 @@ jobs:
         run: |
           mkdir -p external
           curl -fsSL --max-time 300 -o external/epg.lat-de.xml.gz https://epg.lat/files/de.xml.gz || echo "epg.lat nicht erreichbar"
+          # Für den kuratierten DACH-Guide (Pay-TV: Sky, DAZN, Eurosport, blue Sport …)
+          mkdir -p dach
+          for l in DE AT CH; do
+            curl -fsSL --retry 2 --max-time 300 -o dach/$l.xml.gz https://epgshare01.online/epgshare01/epg_ripper_${l}1.xml.gz || echo "epgshare01 $l nicht erreichbar"
+          done
       - name: Zusammenführen und nach Ländern aufteilen
         run: |
           python3 scripts/merge.py parts public external/*.xml.gz
+          # DACH: eigener Grab + Zusatzquellen, Dubletten zusammengeführt, nur Sender mit Programm
+          args="own:public/guide.xml.gz"
+          for l in DE AT CH; do [ -s dach/$l.xml.gz ] && args="$args $(echo $l | tr A-Z a-z):dach/$l.xml.gz"; done
+          python3 scripts/dach.py public/guides/dach.xml.gz public/guides/dach.tsv $args
           date -u > public/updated.txt
           ls -la public public/guides | head -40
       - uses: actions/upload-pages-artifact@v3
