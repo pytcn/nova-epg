@@ -15,6 +15,9 @@ Zusätzlich vollständig: sky.com (DE/UK/IT), dazn.com und www.magenta.tv; ergä
     kuratiert mit `scripts/dach.py` – eigener Grab + epgshare01 (DE/AT/CH, u. a. Pay-TV), Dubletten (HD/SD,
     Länderkopien, umbenannte Sender) über das Programm zusammengeführt, nur Sender mit Programm.
     Senderliste mit Quelle und Tagen im Voraus: `guides/dach.tsv`
+  - `https://pytcn.github.io/nova-epg/guides/sport.xml.gz` – nur Sport: deutschsprachige Sportsender (Sky, DAZN,
+    Eurosport, Sport1, MagentaSport, blue Sport …) + US-Sport (ESPN, FS1, NFL/NBA/NHL/MLB-Sender, Team-Kanäle).
+    Liste: `guides/sport.tsv`
   - `https://pytcn.github.io/nova-epg/guides/<land>.xml.gz` – ein Land (`de`, `at`, `uk`, `fr`, …), als weitere Adresse
   - `https://pytcn.github.io/nova-epg/guide.xml.gz` – alle Sender (groß; für einen Fire TV Stick nicht empfohlen)
   - `stats.tsv` zeigt Sender, Sendungen und Größe jeder Datei.

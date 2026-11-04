@@ -77,6 +77,9 @@ jobs:
           for l in DE AT CH; do
             curl -fsSL --retry 2 --max-time 300 -o dach/$l.xml.gz https://epgshare01.online/epgshare01/epg_ripper_${l}1.xml.gz || echo "epgshare01 $l nicht erreichbar"
           done
+          # Für den Sport-Guide: US-Sportsender und US-Team-Kanäle
+          curl -fsSL --retry 2 --max-time 300 -o dach/US.xml.gz https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz || echo "epgshare01 US nicht erreichbar"
+          curl -fsSL --retry 2 --max-time 300 -o dach/US_TEAMS.xml.gz https://epgshare01.online/epgshare01/epg_ripper_US_SPORTS1.xml.gz || echo "epgshare01 US-Teams nicht erreichbar"
       - name: Zusammenführen und nach Ländern aufteilen
         run: |
           python3 scripts/merge.py parts public external/*.xml.gz
@@ -84,6 +87,11 @@ jobs:
           args="own:public/guide.xml.gz"
           for l in DE AT CH; do [ -s dach/$l.xml.gz ] && args="$args $(echo $l | tr A-Z a-z):dach/$l.xml.gz"; done
           python3 scripts/dach.py public/guides/dach.xml.gz public/guides/dach.tsv $args
+          # Sport: deutschsprachige Sportsender + US-Sport
+          sargs="dach:public/guides/dach.xml.gz"
+          [ -s dach/US.xml.gz ] && sargs="$sargs us:dach/US.xml.gz"
+          [ -s dach/US_TEAMS.xml.gz ] && sargs="$sargs teams:dach/US_TEAMS.xml.gz"
+          python3 scripts/sport.py public/guides/sport.xml.gz public/guides/sport.tsv $sargs
           date -u > public/updated.txt
           ls -la public public/guides | head -40
       - uses: actions/upload-pages-artifact@v3
