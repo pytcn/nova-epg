@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Curated DACH guide: one clean channel list for Germany, Austria and Switzerland, every channel with programmes.
+"""Curated guide: one clean channel list for Germany, Austria and Switzerland (or more countries with
+--countries=de,at,ch,uk,us), every channel with programmes.
 
   python3 scripts/dach.py OUT.xml.gz REPORT.tsv  own:guide.xml.gz  de:extra-de.xml.gz  at:extra-at.xml.gz  ch:extra-ch.xml.gz ...
 
@@ -20,8 +21,12 @@ import csv, gzip, os, re, sys, time, unicodedata
 import xml.etree.ElementTree as ET
 from collections import Counter, defaultdict
 
-OUT, REPORT = sys.argv[1], sys.argv[2]
-INPUTS = [a.split(":", 1) for a in sys.argv[3:]]
+# --countries=de,at,ch,uk,us builds a guide for more countries (default: DACH)
+ARGS = [a for a in sys.argv[1:] if not a.startswith("--countries=")]
+COUNTRIES = next((a.split("=", 1)[1].lower().split(",") for a in sys.argv[1:] if a.startswith("--countries=")), ["de", "at", "ch"])
+OUT, REPORT = ARGS[0], ARGS[1]
+INPUTS = [a.split(":", 1) for a in ARGS[2:]]
+LANG_OF = {"de": "de", "at": "de", "ch": "de", "uk": "en", "us": "en", "ie": "en", "ca": "en", "au": "en"}
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 NOW = time.time()
 HORIZON = NOW + 48 * 3600          # fingerprint window
@@ -29,7 +34,7 @@ SIM = 0.8                          # share of matching programmes for "same chan
 
 NOISE = {"hd", "fhd", "uhd", "sd", "4k", "8k", "hq", "hevc", "raw", "1080p", "720p", "tv", "fernsehen", "channel", "de",
          "d", "at", "ch", "deutschland", "austria", "osterreich", "schweiz", "suisse", "svizzera", "germany", "plus1"}
-DROP = re.compile(r"(?i)\b(test|testkanal|teststream|radio|webradio|audio only|backup)\b")
+DROP = re.compile(r"(?i)\b(test|testkanal|teststream|radio|webradio|audio only|backup)\b|\(pacific|pacific\)|pacific feed")
 
 # Spellings of one name in the different guides
 ALIAS = {"skyspoaustria": "skysportaustria", "skyaut": "skysportaustria", "skysportaustria1": "skysportaustria",
@@ -63,15 +68,17 @@ def open_any(path):
     return gzip.open(path, "rb") if gz else open(path, "rb")
 
 # iptv-org database: DACH ids by name (for clean ids) and Swiss channels (French/Italian ones are kept)
+# per country, so "Discovery Channel" UK and US keep their own ids
 db_by_key, db_name, swiss_keys = {}, {}, set()
 for r in csv.DictReader(open(f"{ROOT}/data/channels.csv", encoding="utf-8")):
-    if r["country"] not in ("DE", "AT", "CH") or r["closed"]:
+    cc = r["country"].lower()
+    if cc not in COUNTRIES or r["closed"]:
         continue
     for n in [r["name"]] + [a for a in r["alt_names"].split(";") if a.strip()]:
         k = key(n)
         if k:
-            db_by_key.setdefault(k, r["id"])
-            db_name.setdefault(k, r["name"])
+            db_by_key.setdefault((cc, k), r["id"])
+            db_name.setdefault((cc, k), r["name"])
             if r["country"] == "CH":
                 swiss_keys.add(k)
 
@@ -118,22 +125,22 @@ for label, path in INPUTS:
         print(f"WARN {path}: {e}", file=sys.stderr)
     for c in cur.values():
         if not c.names:
-            c.names = [re.sub(r"\.(de|at|ch)$", "", c.id).replace(".", " ")]
+            c.names = [re.sub(r"\.[a-z]{2}\d?$", "", c.id).replace(".", " ")]
         if not c.progs or DROP.search(" ".join(c.names)):
             continue
         k = key(c.names[0])
         if label == "own":
-            if c.country not in ("de", "at", "ch"):
+            if c.country not in COUNTRIES:
                 continue
         else:
             lang = c.langs.most_common(1)[0][0] if c.langs else "de"
             # epg.pw marks titles with wrong languages; its German file counts as German.
             if label == "de" and path.find("epg_DE") >= 0:
                 lang = "de"
-            if lang != "de" and not (label == "ch" and lang in ("fr", "it") and k in swiss_keys):
+            if lang != LANG_OF.get(label, "de") and not (label == "ch" and lang in ("fr", "it") and k in swiss_keys):
                 continue
         chans.append(c)
-    print(f"{label:4s} {os.path.basename(path)}: {sum(1 for c in chans if c.src == label)} DACH-Sender mit Daten")
+    print(f"{label:4s} {os.path.basename(path)}: {sum(1 for c in chans if c.src == label)} Sender mit Daten")
 
 # ---- clustering: union-find over (same name with compatible schedule) and (≥ SIM identical schedule)
 parent = list(range(len(chans)))
@@ -195,6 +202,12 @@ def same_name_ok(i, j):
     a, b = chans[i], chans[j]
     if a.src != b.src and a.country == b.country:
         return True                    # one channel seen by two guides
+    if LANG_OF.get(a.country) != LANG_OF.get(b.country):
+        r = ratio(i, j)                # other language: only with the same titles (practically never)
+        return r is not None and r >= 0.6
+    if a.country != b.country and not ({a.country, b.country} <= {"de", "at", "ch"}):
+        r = ratio(i, j)                # UK vs US "National Geographic": same language, different channel
+        return r is not None and r >= 0.6
     r = ratio(i, j, titles=False)
     return r is None or r >= (0.3 if a.src != b.src else 0.5)
 for k, idx in by_key.items():
@@ -260,9 +273,15 @@ for i in range(len(chans)):
 # ---- one channel per cluster
 out_ids, rows = set(), []
 w = gzip.open(OUT, "wt", encoding="utf-8", compresslevel=9)
-w.write('<?xml version="1.0" encoding="UTF-8"?>\n<tv generator-info-name="nova-epg dach">\n')
-records, used_names = [], set()
-for members in clusters.values():
+w.write(f'<?xml version="1.0" encoding="UTF-8"?>\n<tv generator-info-name="nova-epg {"-".join(COUNTRIES)}">\n')
+# Countries in the order given win the plain names: with --countries=de,at,ch,uk,us the German "National
+# Geographic" keeps its name and the British one becomes "National Geographic UK" – NOVA+ matches by name
+# after removing "DE:"/"UK |" prefixes, so equal names in two countries would give one of them the wrong guide.
+DACH = {"de", "at", "ch"}
+def rank(members):
+    return min((COUNTRIES.index(c.country) if c.country in COUNTRIES else 99) for c in members)
+records, used_names, used_keys = [], set(), set()
+for members in sorted(clusters.values(), key=lambda m: (min(rank(m), 3 if rank(m) < 3 else rank(m)), -max(c.score() for c in m))):
     members.sort(key=lambda c: -c.score())
     best = members[0]
     names = []
@@ -278,19 +297,27 @@ for members in clusters.values():
             k = key(n)
             if k and k not in mkeys:
                 mkeys.append(k)
-    dbk = next((k for k in mkeys if k in db_by_key and db_by_key[k] not in out_ids), None)
+    # database lookup in the channel's country first, then in the countries of the same language (3sat seen
+    # by the Austrian guide is still the German 3sat entry)
+    group = [best.country] + [c for c in COUNTRIES if c != best.country and LANG_OF.get(c) == LANG_OF.get(best.country)]
+    dbk = next(((cc, k) for cc in group for k in mkeys if (cc, k) in db_by_key and db_by_key[(cc, k)] not in out_ids), None)
     def id_key(cid):
-        return key(re.sub(r"\.(de|at|ch)$", "", cid.split("@")[0]).replace(".", " "))
+        return key(re.sub(r"\.[a-z]{2}\d?$", "", cid.split("@")[0]).replace(".", " "))
     own = next((c for c in members if c.src == "own" and id_key(c.id) in mkeys), None)
     cands = ([own.id] if own else []) + ([db_by_key[dbk]] if dbk else []) + [c.id for c in members]
     cid = next((x for x in cands if x and x not in out_ids), None) or f"{best.id}.{len(out_ids)}"
     pretty = db_name[dbk] if dbk else next((n for n in best.names if not n.isupper()), best.names[0])
+    if best.country not in DACH:
+        tag = " " + best.country.upper()
+        names = [n + tag if key(n) in used_keys else n for n in names]
+        if key(pretty) in used_keys:
+            pretty += tag
     if pretty in used_names:          # two channels must not look alike in the list
         pretty = next((n for n in best.names + names if n not in used_names), f"{pretty} ({best.country or 'DACH'})")
     used_names.add(pretty)
-    if pretty in names:
-        names.remove(pretty)
-    names.insert(0, pretty)
+    used_keys.update(key(n) for n in [pretty] + names)
+    seen_n = {pretty.lower()}
+    names = [pretty] + [n for n in names if not (n.lower() in seen_n or seen_n.add(n.lower()))]
     out_ids.add(cid)
     progs = sorted(best.progs)
     last = progs[-1][1] if progs else 0
@@ -324,7 +351,7 @@ w.write("</tv>\n"); w.close()
 
 merged = sum(len(r[6]) - 1 for r in records)
 with open(REPORT, "w", encoding="utf-8") as f:
-    f.write(f"# DACH-Guide {time.strftime('%Y-%m-%d %H:%M UTC', time.gmtime(NOW))}: {len(records)} Sender, {merged} Dubletten zusammengeführt\n")
+    f.write(f"# Guide {'/'.join(c.upper() for c in COUNTRIES)} {time.strftime('%Y-%m-%d %H:%M UTC', time.gmtime(NOW))}: {len(records)} Sender, {merged} Dubletten zusammengeführt\n")
     f.write("Sender\tID\tQuelle\tSendungen\tTage voraus\tzusammengeführt mit\n")
     f.write("\n".join(rows) + "\n")
-print(f"DACH: {len(records)} Sender mit Programm, {merged} Dubletten zusammengeführt, {sum(len(r[4]) for r in records)} Sendungen")
+print(f"{'/'.join(c.upper() for c in COUNTRIES)}: {len(records)} Sender mit Programm, {merged} Dubletten zusammengeführt, {sum(len(r[4]) for r in records)} Sendungen")

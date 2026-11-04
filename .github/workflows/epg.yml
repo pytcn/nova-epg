@@ -77,7 +77,8 @@ jobs:
           for l in DE AT CH; do
             curl -fsSL --retry 2 --max-time 300 -o dach/$l.xml.gz https://epgshare01.online/epgshare01/epg_ripper_${l}1.xml.gz || echo "epgshare01 $l nicht erreichbar"
           done
-          # Für den Sport-Guide: US-Sportsender und US-Team-Kanäle
+          # Für den Sport-Guide und den Gesamt-Guide: UK, US-Sender und US-Team-Kanäle
+          curl -fsSL --retry 2 --max-time 300 -o dach/UK.xml.gz https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz || echo "epgshare01 UK nicht erreichbar"
           curl -fsSL --retry 2 --max-time 300 -o dach/US.xml.gz https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz || echo "epgshare01 US nicht erreichbar"
           curl -fsSL --retry 2 --max-time 300 -o dach/US_TEAMS.xml.gz https://epgshare01.online/epgshare01/epg_ripper_US_SPORTS1.xml.gz || echo "epgshare01 US-Teams nicht erreichbar"
       - name: Zusammenführen und nach Ländern aufteilen
@@ -87,6 +88,12 @@ jobs:
           args="own:public/guide.xml.gz"
           for l in DE AT CH; do [ -s dach/$l.xml.gz ] && args="$args $(echo $l | tr A-Z a-z):dach/$l.xml.gz"; done
           python3 scripts/dach.py public/guides/dach.xml.gz public/guides/dach.tsv $args
+          # Alles: DACH + UK + US in einer Datei, deutschsprachige Sender behalten bei gleichem Namen den Vorrang
+          aargs="$args"
+          [ -s dach/UK.xml.gz ] && aargs="$aargs uk:dach/UK.xml.gz"
+          [ -s dach/US.xml.gz ] && aargs="$aargs us:dach/US.xml.gz"
+          [ -s dach/US_TEAMS.xml.gz ] && aargs="$aargs us:dach/US_TEAMS.xml.gz"
+          python3 scripts/dach.py --countries=de,at,ch,uk,us public/guides/alles.xml.gz public/guides/alles.tsv $aargs
           # Sport: deutschsprachige Sportsender + US-Sport
           sargs="dach:public/guides/dach.xml.gz"
           [ -s dach/US.xml.gz ] && sargs="$sargs us:dach/US.xml.gz"
